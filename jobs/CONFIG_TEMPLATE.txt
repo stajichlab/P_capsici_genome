@@ -1,0 +1,14 @@
+GENOME=Hortaea_thailandica_CCFEE_5958.fasta # THIS IS ORIGINAL GENOME ASSEMBLY, EG FROM SPADES, MASURCA
+SORTED=Hortaea_thailandica_CCFEE_5958.sort.fasta # THIS IS FINAL CLEANED AND SORTED FILE AFTER 01_clean_sort_assembly.sh
+MIN=300  #MINIMUM SIZE CONTIG
+PREFIX=B0A50_ # NCBI ASSIGNED LOCUS OR YOUR OWN MADEUP ONE
+BUSCO=ascomycota_odb9 # BUSCO DB TO USE - COULD BE dikarya_odb9, fungi_odb9, etc
+SPECIES="Hortaea thailandica" # GENUS SPECIES
+ISOLATE="CCFEE 5958"  # STRAIN/ISOLATE INFO
+GENEMARK=Hortaea_thailandica.v1.gmes.mod # GENEMARK ALREADY TRAINED MOD FILE
+AUGUSTUSOPTS=--augustus_species Hortaea_thailandica.v1.busco  # EITHER A PRETRAINED AUGUSTUS SPECIES NAME
+# OR PROVIDE --optmize_augustus IN THIS SPACE
+#alternative this could have been --optmize_augustus no longer need to optimize since already been done? 
+TRANSCRIPTS=Hw2_Trinity_GG.fasta,H_thai.trans.fasta # TRANSCRIPTS TO ALIGN, NOT SHORT READS BUT ALREADY ASSEMBLED ONES
+PROTEINS=Hort_peps.fasta,uniprot_swissprot.fasta # PROTEINS TO SEARCH WITH FOR ANNOTATION, SEPAERATE BY COMMA
+TEMPLATE=../Antarctica_genomes_template.sbt # TEMPLATE FOR INITIAL ASSIGNMENT IN tbl2asn
