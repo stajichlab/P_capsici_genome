@@ -1,0 +1,1919 @@
+# fasta36 -E 1e-30 list1_andrea.fas ../annotation_v3/funannot/predict_results/Phytophthora_capsici_LT1534.transcripts.fa
+FASTA searches a protein or DNA sequence data bank
+ version 36.3.7a Jan, 2015(preload9)
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: list1_andrea.fas
+  1>>>DVH05_008726-T1 DVH05_008726 - 564 nt
+Library: ../annotation_v3/funannot/predict_results/Phytophthora_capsici_LT1534.transcripts.fa
+  25696683 residues in 20292 sequences
+
+Statistics: Altschul/Gish params: n0: 564 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 1476 (1516) to 1476 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.168), E-opt: 0.05 (0.0379), width:  16
+ Scan time:  1.120
+
+The best scores are:                                      opt bits E(20292)
+DVH05V3_005525-T1 DVH05V3_005525               ( 564) [f] 2820 783.8       0
+DVH05V3_005534-T1 DVH05V3_005534               (1797) [f] 2435 677.1 2.2e-194
+DVH05V3_005531-T1 DVH05V3_005531               (1596) [f] 1192 332.8 9.5e-91
+DVH05V3_005532-T1 DVH05V3_005532               (2301) [f] 1143 319.2 1.2e-86
+DVH05V3_006417-T1 DVH05V3_006417               (2505) [f] 1136 317.3 4.5e-86
+DVH05V3_004364-T1 DVH05V3_004364               (2448) [f] 1110 310.1 6.6e-84
+DVH05V3_003171-T1 DVH05V3_003171               (2505) [f] 1110 310.1 6.6e-84
+DVH05V3_005535-T1 DVH05V3_005535               (2307) [f] 1109 309.8   8e-84
+DVH05V3_005530-T1 DVH05V3_005530               (1665) [f] 1097 306.5   8e-83
+DVH05V3_013230-T1 DVH05V3_013230               (2535) [f] 1084 302.9 9.7e-82
+DVH05V3_007638-T1 DVH05V3_007638               (2487) [f] 1047 292.6 1.2e-78
+DVH05V3_016887-T1 DVH05V3_016887               (2346) [f]  995 278.2 2.6e-74
+DVH05V3_014094-T1 DVH05V3_014094               ( 471) [f]  955 267.2 5.3e-71
+DVH05V3_005421-T1 DVH05V3_005421               (7191) [f]  505 142.5 1.9e-33
+
+>>DVH05V3_005525-T1 DVH05V3_005525                        (564 nt)
+ initn: 2820 init1: 2820 opt: 2820  Z-score: 4182.7  bits: 783.8 E(20292):    0
+banded Smith-Waterman score: 2820; 100.0% identity (100.0% similar) in 564 nt overlap (1-564:1-564)
+
+               10        20        30        40        50        60
+DVH05_ ATGGAGTTTGGGAAGTTCATGGACCGCATGGCAGCCGCTGGAATCCTCGAAGACACGATC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATGGAGTTTGGGAAGTTCATGGACCGCATGGCAGCCGCTGGAATCCTCGAAGACACGATC
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+DVH05_ GTTGTGATCTCTGGTGACCACGGACAAGGCCCGGAATTCGGGAATAAAGTCCCTGAAGAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTTGTGATCTCTGGTGACCACGGACAAGGCCCGGAATTCGGGAATAAAGTCCCTGAAGAT
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+DVH05_ CGCGATGTGTCGGTTACTCGAGTGGCTGGTGCGATTGTGGCTGAAGGTCGTCTTGGAAAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGCGATGTGTCGGTTACTCGAGTGGCTGGTGCGATTGTGGCTGAAGGTCGTCTTGGAAAT
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+DVH05_ GCTGTGGGGATGGTCATGGACGATGCCACAGAGCAGTACGATATCCTGAATACCCTAGCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GCTGTGGGGATGGTCATGGACGATGCCACAGAGCAGTACGATATCCTGAATACCCTAGCA
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+DVH05_ GACATCACTGGAGTACCGGAAGGAGGTTTTGTGCAGGATGGAGTTGGCCGATCACTCAAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GACATCACTGGAGTACCGGAAGGAGGTTTTGTGCAGGATGGAGTTGGCCGATCACTCAAA
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+DVH05_ CGGAAGATCAAATTCGGAGAACGTATTGTGTACAGCAACAACCCGACTCGGAAGATGTCG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGGAAGATCAAATTCGGAGAACGTATTGTGTACAGCAACAACCCGACTCGGAAGATGTCG
+              310       320       330       340       350       360
+
+              370       380       390       400       410       420
+DVH05_ GTGGTGCGAGGACACGAACGTCTGCGGTACGACAAGGTGACGGATTCGATGCTGCTGCAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTGGTGCGAGGACACGAACGTCTGCGGTACGACAAGGTGACGGATTCGATGCTGCTGCAC
+              370       380       390       400       410       420
+
+              430       440       450       460       470       480
+DVH05_ AACGCGGACACCGACCACGACATGGAGAAGGATCTGCTACCTACGTTAACGGAGGGAGAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AACGCGGACACCGACCACGACATGGAGAAGGATCTGCTACCTACGTTAACGGAGGGAGAA
+              430       440       450       460       470       480
+
+              490       500       510       520       530       540
+DVH05_ CGTGCAAATGGATCAGTTGGCGTGACGCTGGACGGAGAATTAACTCGTACTACACGAAAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGTGCAAATGGATCAGTTGGCGTGACGCTGGACGGAGAATTAACTCGTACTACACGAAAC
+              490       500       510       520       530       540
+
+              550       560    
+DVH05_ GATGGGAAGGCGAGTGCTTGTTAG
+       ::::::::::::::::::::::::
+DVH05V GATGGGAAGGCGAGTGCTTGTTAG
+              550       560    
+
+>>DVH05V3_005534-T1 DVH05V3_005534                        (1797 nt)
+ initn: 2427 init1: 2122 opt: 2435  Z-score: 3597.0  bits: 677.1 E(20292): 2.2e-194
+banded Smith-Waterman score: 2435; 92.6% identity (92.6% similar) in 565 nt overlap (1-564:1219-1783)
+
+                                             10        20        30
+DVH05_                               ATGGAGTTTGGGAAGTTCATGGACCGCATG
+                                     :::::::::::::::::::::::::: :::
+DVH05V AACTACCTCGAGATCCGATATTTCACCGACATGGAGTTTGGGAAGTTCATGGACCGGATG
+     1190      1200      1210      1220      1230      1240        
+
+               40        50        60        70        80        90
+DVH05_ GCAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGC
+       :::::::::::::::::: :::::::::::::::::::::: ::::::::::::::::::
+DVH05V GCAGCCGCTGGAATCCTCAAAGACACGATCGTTGTGATCTCGGGTGACCACGGACAAGGC
+     1250      1260      1270      1280      1290      1300        
+
+              100       110       120       130       140       150
+DVH05_ CCGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGT
+       ::::::::::::::: : :::::::::::::: :::::::::: ::::::::::::::::
+DVH05V CCGGAATTCGGGAATGACGTCCCTGAAGATCGTGATGTGTCGGCTACTCGAGTGGCTGGT
+     1310      1320      1330      1340      1350      1360        
+
+              160       170       180       190       200       210
+DVH05_ GCGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACA
+       :: ::::::::::::::::: :: ::::::::::::::::::::::::::::: ::::::
+DVH05V GCAATTGTGGCTGAAGGTCGACTCGGAAATGCTGTGGGGATGGTCATGGACGACGCCACA
+     1370      1380      1390      1400      1410      1420        
+
+              220       230       240       250       260       270
+DVH05_ GAGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTT
+       ::::::::::::::: :::::::: :::::::::::::::::::::::::::::::::: 
+DVH05V GAGCAGTACGATATCTTGAATACCTTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTC
+     1430      1440      1450      1460      1470      1480        
+
+              280       290       300       310       320       330
+DVH05_ GTGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTG
+       : :::::: ::: :::::::::::::::::::::::::::::::::: ::::::::::::
+DVH05V GAGCAGGACGGAATTGGCCGATCACTCAAACGGAAGATCAAATTCGGCGAACGTATTGTG
+     1490      1500      1510      1520      1530      1540        
+
+              340       350       360       370       380       390
+DVH05_ TACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTAC
+     1550      1560      1570      1580      1590      1600        
+
+              400       410       420       430       440       450
+DVH05_ GACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAG
+       :::::::::::::: :::::::::::::::::: : :: :: :: ::::::::: :  ::
+DVH05V GACAAGGTGACGGAATCGATGCTGCTGCACAACCCTGATACGGATCACGACATGAAAGAG
+     1610      1620      1630      1640      1650      1660        
+
+              460       470       480        490       500         
+DVH05_ GATCTGCTACCTACGTTAACGGAGGGAGAACGTG-CAAATGGATCAGTTGGCGTGACGCT
+       ::::: :: :::::::::: ::: : :::::: : : :::::::::::::::::::::::
+DVH05V GATCTTCTCCCTACGTTAATGGAAGAAGAACGCGCCGAATGGATCAGTTGGCGTGACGCT
+     1670      1680      1690      1700      1710      1720        
+
+     510       520       530       540       550       560         
+DVH05_ GGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG     
+       ::::: ::::: ::: :::::::::: ::::::::::::::: :::::::: : :     
+DVH05V GGACGAAGAATCAACGCGTACTACACCAAACGATGGGAAGGCAAGTGCTTGCTTGCTGCT
+     1730      1740      1750      1760      1770      1780        
+
+DVH05V GAGTGTTAG
+     1790       
+
+>>DVH05V3_005531-T1 DVH05V3_005531                        (1596 nt)
+ initn: 1113 init1: 1113 opt: 1192  Z-score: 1737.2  bits: 332.8 E(20292): 9.5e-91
+banded Smith-Waterman score: 1192; 68.2% identity (68.2% similar) in 563 nt overlap (1-562:1018-1580)
+
+                                             10        20        30
+DVH05_                               ATGGAGTTTGGGAAGTTCATGGACCGCATG
+                                     ::::::::::: ::::::::::::::::::
+DVH05V AATTACGCAGAAATGCGGTATTTTTCGGATATGGAGTTTGGCAAGTTCATGGACCGCATG
+       990      1000      1010      1020      1030      1040       
+
+               40        50        60        70        80        90
+DVH05_ GCAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGC
+        : :: :::::::: ::: : ::::: ::::::::: :    :: ::::::::::: : :
+DVH05V TCCGCAGCTGGAATTCTCAACGACACCATCGTTGTGGTTGTAGGAGACCACGGACAGGCC
+      1050      1060      1070      1080      1090      1100       
+
+              100       110       120       130       140       150
+DVH05_ CCGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGT
+       :: ::   ::: ::  :  : :: :: : ::: :: :: :: :::  ::  :: :: :::
+DVH05V CCAGAGGCCGGCAACTACATTCCAGAGGCTCGAGACGTATCCGTTCATCATGTTGCGGGT
+      1110      1120      1130      1140      1150      1160       
+
+              160       170       180       190       200       210
+DVH05_ GCGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACA
+         : : ::::: :::::  : :::::  : :: :::::: :    :: :: ::::: :: 
+DVH05V ATGCTCGTGGCGGAAGGGAGGCTTGGGGACGCGGTGGGGCTTAAGATCGAAGATGCGACC
+      1170      1180      1190      1200      1210      1220       
+
+              220       230       240       250       260       270
+DVH05_ GAGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTT
+       ::::::::::::::: :::::::  :::: :: :::  ::: ::::: :::: :::::: 
+DVH05V GAGCAGTACGATATCATGAATACGTTAGCGGATATCGTTGGCGTACCAGAAGAAGGTTTC
+      1230      1240      1250      1260      1270      1280       
+
+              280       290       300       310       320       330
+DVH05_ GTGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTG
+        : :: :: :::::::: ::::: ::::: ::  :   ::: ::::: :: ::  : :::
+DVH05V ATTCAAGACGGAGTTGGTCGATCTCTCAAGCGCCAATCCAAGTTCGGCGATCGAGTGGTG
+      1290      1300      1310      1320      1330      1340       
+
+              340       350       360       370       380       390
+DVH05_ TACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTAC
+       ::::: :::::::: : ::::::::::::  : :: ::::::   :: ::  :::: :::
+DVH05V TACAGTAACAACCCCAGTCGGAAGATGTCTATTGTTCGAGGAACAGAGCGATTGCGATAC
+      1350      1360      1370      1380      1390      1400       
+
+              400       410       420       430       440       450
+DVH05_ GACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAG
+       :::   : : ::   ::  ::::  ::::: ::::  :  : :: :: :::::: :    
+DVH05V GACCGCGCGGCGAGATCCGTGCTCTTGCACGACGCCAAGGCTGATCATGACATGCACTCT
+      1410      1420      1430      1440      1450      1460       
+
+              460        470       480       490       500         
+DVH05_ GATCTGCTACCT-ACGTTAACGGAGGGAGAACGTGCAAATGGATCAGTTGGCGTGACGCT
+       :: ::: : ::: :  : : :  :: :     :    : ::: :::  ::: : :::  :
+DVH05V GACCTGTTCCCTGATCTGACCCCAGAGCAGCAGAATGAGTGGCTCAAGTGGAGAGACAAT
+      1470      1480      1490      1500      1510      1520       
+
+     510       520       530       540       550       560         
+DVH05_ GGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG     
+       :: ::   : : : :   :::::    :: :: :::::       ::::::::       
+DVH05V GGGCGCCAACTGACCGAATACTATGTCAAGCGGTGGGATAAACGCTGCTTGTTTACAGCC
+      1530      1540      1550      1560      1570      1580       
+
+DVH05V AAGTGCTAA
+      1590      
+
+>>DVH05V3_005532-T1 DVH05V3_005532                        (2301 nt)
+ initn: 398 init1: 330 opt: 1143  Z-score: 1660.9  bits: 319.2 E(20292): 1.2e-86
+banded Smith-Waterman score: 1143; 67.5% identity (67.5% similar) in 567 nt overlap (1-564:1723-2287)
+
+                                             10        20        30
+DVH05_                               ATGGAGTTTGGGAAGTTCATGGACCGCATG
+                                     :::::  : ::::: ::::::::: : :::
+DVH05V AACTACTTGGAAATGCGGTACTTTACCGACATGGAACTGGGGAAATTCATGGACAGAATG
+           1700      1710      1720      1730      1740      1750  
+
+               40        50        60        70        80        90
+DVH05_ GCAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGC
+       :  :: :: ::: ::::: : ::::: ::: :: : :::  ::: :: :: :: :::: :
+DVH05V GAGGCGGCAGGAGTCCTCAACGACACCATCATTCTCATCGTTGGAGATCATGGGCAAGCC
+           1760      1770      1780      1790      1800      1810  
+
+              100       110       120       130       140       150
+DVH05_ CCGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGT
+       :: :::::::: ::: :    :: ::  : :: ::::: :::  ::: :  :: :: :: 
+DVH05V CCTGAATTCGGCAATGACACACCGGAGAAACGGGATGTCTCGTGTACACACGTCGCAGGA
+           1820      1830      1840      1850      1860      1870  
+
+              160       170       180       190       200       210
+DVH05_ GCGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACA
+       :   :  : :: :::::  : :::::: : :  :: ::  :    :: :: :: ::  : 
+DVH05V GTTCTCATAGCCGAAGGAAGACTTGGAGACGGCGTTGGACTTCGGATCGAAGACGCAGCT
+           1880      1890      1900      1910      1920      1930  
+
+              220       230       240       250       260       270
+DVH05_ GAGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTT
+       ::::: :::::::: :: :: :: :: :: :: ::::: ::  : ::::: :: :: :::
+DVH05V GAGCAATACGATATGCTCAACACTCTGGCGGATATCACGGGTCTTCCGGACGGTGGCTTT
+           1940      1950      1960      1970      1980      1990  
+
+              280       290       300       310       320       330
+DVH05_ GTGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTG
+       : :::::: :: :: ::  :::: :: ::::: :   : :  :: ::::: ::  : :::
+DVH05V GAGCAGGACGGCGTGGGGAGATCCCTTAAACGCAGTGTAACGTTTGGAGAGCGGGTAGTG
+           2000      2010      2020      2030      2040      2050  
+
+              340       350       360       370       380       390
+DVH05_ TACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTAC
+       ::::::::::::::  :   :::::  ::: : :: ::::: ::  : ::::: ::::::
+DVH05V TACAGCAACAACCCAGCAGTGAAGAACTCGATCGTTCGAGGCCATCATCGTCTACGGTAC
+           2060      2070      2080      2090      2100      2110  
+
+              400       410       420       430       440       450
+DVH05_ GACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAG
+       :::      ::::: ::  : :: :: ::  :: :: :::: :::: ::::::: ::: :
+DVH05V GACCGTAGTACGGACTCCGTTCTACTCCATGACACGAACACGGACCCCGACATGAAGATG
+           2120      2130      2140      2150      2160      2170  
+
+              460          470       480       490       500       
+DVH05_ GATCTGCTACCTACGTT---AACGGAGGGAGAACGTGCAAATGGATCAGTTGGCGTGACG
+       :::::: : ::: :  :   ::: :: :::::: :  : : :::  :   ::::: ::  
+DVH05V GATCTGTTCCCTGCTCTACCAACCGA-GGAGAA-GAACCAGTGGCGCGACTGGCGAGATA
+           2180      2190       2200       2210      2220      2230
+
+       510       520       530       540       550       560       
+DVH05_ CTGGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG   
+         ::::::  : :   : ::::::::: :::::: :::::   : ::::  :: : :   
+DVH05V AGGGACGGGAAGTCGCCGCGTACTACAAGAAACGCTGGGAGAACAAGTGTCTGCTGGCTG
+             2240      2250      2260      2270      2280      2290
+
+DVH05V GGGGTTGTTGA
+             2300 
+
+>>DVH05V3_006417-T1 DVH05V3_006417                        (2505 nt)
+ initn: 938 init1: 741 opt: 1136  Z-score: 1649.8  bits: 317.3 E(20292): 4.5e-86
+banded Smith-Waterman score: 1136; 67.3% identity (67.3% similar) in 565 nt overlap (1-564:1921-2479)
+
+                                             10        20        30
+DVH05_                               ATGGAGTTTGGGAAGTTCATGGACCGCATG
+                                     :::::: : :: :: ::::::::::: :::
+DVH05V AATTATCTGGAGGTGAGGTATTTCACAGATATGGAGCTCGGCAAATTCATGGACCGGATG
+             1900      1910      1920      1930      1940      1950
+
+               40        50        60        70        80        90
+DVH05_ GCAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGC
+       ::  : :  :: :: ::: : :: ::::::::  : ::  : :: :::::::: ::::  
+DVH05V GCCACTGAAGGCATTCTCAACGATACGATCGTGATCATTACAGGAGACCACGGCCAAGCA
+             1960      1970      1980      1990      2000      2010
+
+              100       110       120       130       140       150
+DVH05_ CCGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGT
+       :: :::   :      : ::  :  :   :: ::: : :::  : ::::: :: :: :  
+DVH05V CCAGAAGCAG------ACGTGACGAACACTCACGAGGAGTCAATGACTCGTGTAGCAGCA
+             2020            2030      2040      2050      2060    
+
+              160       170       180       190       200       210
+DVH05_ GCGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACA
+       :: :::::::: ::::: :: :: ::: : ::::::::  :::: :: :: :: :     
+DVH05V GCAATTGTGGCCGAAGGACGACTGGGAGACGCTGTGGGCTTGGTGATTGAGGACGTAGTG
+         2070      2080      2090      2100      2110      2120    
+
+              220       230       240       250       260       270
+DVH05_ GAGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTT
+       :: :: :::::   ::: :  ::: ::::::: ::::: :: :: ::::: ::::: :: 
+DVH05V GAACATTACGACTACCTCAGCACCTTAGCAGATATCACGGGCGTTCCGGACGGAGGATTC
+         2130      2140      2150      2160      2170      2180    
+
+              280       290       300       310       320       330
+DVH05_ GTGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTG
+        : ::: :::: :: :: :: :: :::::::: ::: ::   : :::::: ::: : :: 
+DVH05V CTACAGAATGGCGTCGGACGCTCTCTCAAACGCAAGGTCGTGTACGGAGAGCGTGTGGTC
+         2190      2200      2210      2220      2230      2240    
+
+              340       350       360       370       380       390
+DVH05_ TACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTAC
+       ::::: ::: : :: :  :: :::::: :::: ::::: :: :::    : :: :: :::
+DVH05V TACAGTAACGAACCAAGCCGCAAGATGGCGGTTGTGCGTGGCCACCTGAGACTCCGCTAC
+         2250      2260      2270      2280      2290      2300    
+
+              400       410       420       430       440       450
+DVH05_ GACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAG
+       ::: : ::::  :::::  :: :::::::: :  :::: : ::::::::: ::: : :  
+DVH05V GACCAAGTGAGTGATTCCGTGATGCTGCACGATACGGAGAGCGACCACGAGATGAAAATT
+         2310      2320      2330      2340      2350      2360    
+
+              460       470       480        490       500         
+DVH05_ GATCTGCTACCTACGTTAACGGAGGGAGAAC-GTGCAAATGGATCAGTTGGCGTGACGCT
+       :::::: : :: :   : :: :  : ::: : :    ::::::  :  ::: : :::   
+DVH05V GATCTGTTCCCGAACCTCACAGTTGAAGAGCAGACTGAATGGAAGACCTGGAGAGACAGA
+         2370      2380      2390      2400      2410      2420    
+
+     510       520       530       540       550       560         
+DVH05_ GGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG     
+       :: ::  :: ::  : : :: :: :: :: :: ::::: ::: : :::::: : :     
+DVH05V GGCCGTCGACTTGCCACTTATTATACAAAGCGGTGGGACGGCAACTGCTTGCTTGCTGTC
+         2430      2440      2450      2460      2470      2480    
+
+DVH05V AACTGCACGGAGGAAAAGTAA
+         2490      2500     
+
+>>DVH05V3_004364-T1 DVH05V3_004364                        (2448 nt)
+ initn: 901 init1: 588 opt: 1110  Z-score: 1611.1  bits: 310.1 E(20292): 6.6e-84
+banded Smith-Waterman score: 1110; 67.0% identity (67.0% similar) in 564 nt overlap (1-562:1864-2420)
+
+                                             10        20        30
+DVH05_                               ATGGAGTTTGGGAAGTTCATGGACCGCATG
+                                     :::::: : :: ::::: :::::::: :::
+DVH05V GATTACTTAGAGATGAGGTACTTTACCGACATGGAGCTAGGCAAGTTTATGGACCGGATG
+          1840      1850      1860      1870      1880      1890   
+
+               40        50        60        70        80        90
+DVH05_ GCAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGC
+       :     :  :: :::::: : ::::: :: :: :: ::    :: :::::::: ::::  
+DVH05V GAGAAGGAAGGCATCCTCAATGACACCATTGTCGTCATTATGGGGGACCACGGCCAAGCG
+          1900      1910      1920      1930      1940      1950   
+
+              100       110        120       130       140         
+DVH05_ CCGGAATTCGGGAATAAAGTCCCTGAAGA-TCGCGATGTGTCGGTTACTCGAGTGGCTGG
+       :: :::   :       ::  : :::: :  : ::: : ::: :: ::: ::::::::::
+DVH05V CCTGAAGCTG-------AGATCATGAACACACACGAGGAGTCTGTAACTAGAGTGGCTGG
+          1960             1970      1980      1990      2000      
+
+     150       160       170       180       190       200         
+DVH05_ TGCGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCAC
+        :: ::: : ::: ::::  : :: :: ::    :  ::::  ::  : :: :::::  :
+DVH05V AGCCATTATTGCTCAAGGAAGACTGGGGAAATACGCTGGGACTGTGGTTGATGATGCGGC
+       2010      2020      2030      2040      2050      2060      
+
+     210       220       230       240       250       260         
+DVH05_ AGAGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTT
+        ::::: ::::::::::: :: ::  :::: :: :: :: ::  :::: :::::::: ::
+DVH05V TGAGCAATACGATATCCTCAACACTTTAGCGGATATTACCGGTTTACCTGAAGGAGGCTT
+       2070      2080      2090      2100      2110      2120      
+
+     270       280       290       300       310       320         
+DVH05_ TGTGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGT
+        : :::: :::: ::::: ::::: ::::: :: :::  ::: :  :::::::::   ::
+DVH05V CGAGCAGAATGGCGTTGGTCGATCTCTCAAGCGCAAGGCCAAGTATGGAGAACGTCCAGT
+       2130      2140      2150      2160      2170      2180      
+
+     330       340       350       360       370       380         
+DVH05_ GTACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTA
+       :: ::: ::  : :: :  :: :: ::: :  : :: :: :: ::  : ::  :: : ::
+DVH05V GTTCAGTAATGATCCCAACCGTAAAATGGCCATCGTTCGTGGTCATCAGCGCTTGAGATA
+       2190      2200      2210      2220      2230      2240      
+
+     390       400       410       420       430       440         
+DVH05_ CGACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAA
+       ::::   :::::::: ::::::::::: ::  :: :::: :  :::::::  ::: ::: 
+DVH05V CGACCGAGTGACGGACTCGATGCTGCTTCATGACACGGAAAGTGACCACGCTATGAAGAC
+       2250      2260      2270      2280      2290      2300      
+
+     450       460       470       480        490       500        
+DVH05_ GGATCTGCTACCTACGTTAACGGAGGGAGAACGTGC-AAATGGATCAGTTGGCGTGACGC
+        :::::: : :::   ::  :   :: : : :  ::  ::::::        :::::: :
+DVH05V TGATCTGTTCCCTGAATTGTCACCGGAAAAGCAAGCGGAATGGAGATCCCTACGTGACAC
+       2310      2320      2330      2340      2350      2360      
+
+      510       520       530       540       550       560        
+DVH05_ TGGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG    
+       ::::::  ::::::   ::::::::: : : :::::::: :   : ::  :: :      
+DVH05V TGGACGACGAATTACAGCGTACTACAAGCAGCGATGGGACGAGAACTGTCTGCTGTCCGT
+       2370      2380      2390      2400      2410      2420      
+
+DVH05V CGAGTGTGAAGGAGAAAGTTAG
+       2430      2440        
+
+>>DVH05V3_003171-T1 DVH05V3_003171                        (2505 nt)
+ initn: 916 init1: 603 opt: 1110  Z-score: 1610.9  bits: 310.1 E(20292): 6.6e-84
+banded Smith-Waterman score: 1110; 67.0% identity (67.0% similar) in 564 nt overlap (1-562:1921-2477)
+
+                                             10        20        30
+DVH05_                               ATGGAGTTTGGGAAGTTCATGGACCGCATG
+                                     :::::: : :: ::::: :::::::: :::
+DVH05V GATTACTTAGAGATGAGGTACTTTACCGACATGGAGCTAGGCAAGTTTATGGACCGGATG
+             1900      1910      1920      1930      1940      1950
+
+               40        50        60        70        80        90
+DVH05_ GCAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGC
+       :     :  :: :::::: : ::::: :: :: :: ::    :: :::::::: ::::  
+DVH05V GAGAAGGAAGGCATCCTCAATGACACCATTGTCGTCATTATGGGGGACCACGGCCAAGCG
+             1960      1970      1980      1990      2000      2010
+
+              100       110        120       130       140         
+DVH05_ CCGGAATTCGGGAATAAAGTCCCTGAAGA-TCGCGATGTGTCGGTTACTCGAGTGGCTGG
+       :: :::   :       ::  : :::: :  : ::: : ::: :: ::: ::::::::::
+DVH05V CCTGAAGCTG-------AGATCATGAACACACACGAGGAGTCTGTAACTAGAGTGGCTGG
+             2020             2030      2040      2050      2060   
+
+     150       160       170       180       190       200         
+DVH05_ TGCGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCAC
+        :: ::: : ::: ::::  : :: :: ::    :  ::::  ::  : :: :::::  :
+DVH05V AGCCATTATTGCTCAAGGAAGACTGGGGAAATACGCTGGGACTGTGGTTGATGATGCGGC
+          2070      2080      2090      2100      2110      2120   
+
+     210       220       230       240       250       260         
+DVH05_ AGAGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTT
+        :: :::::::::::::: :: ::  :::: :: :: :: ::  :::: :::::::: ::
+DVH05V TGAACAGTACGATATCCTCAACACGTTAGCGGATATTACCGGTTTACCTGAAGGAGGATT
+          2130      2140      2150      2160      2170      2180   
+
+     270       280       290       300       310       320         
+DVH05_ TGTGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGT
+        : :::: :::: ::::: ::::: ::::: :: :::  ::: :  :::::::::   ::
+DVH05V CGAGCAGAATGGCGTTGGTCGATCTCTCAAGCGCAAGGCCAAGTATGGAGAACGTCCAGT
+          2190      2200      2210      2220      2230      2240   
+
+     330       340       350       360       370       380         
+DVH05_ GTACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTA
+       :: ::: ::  : :: :  :: :: ::: :  : :: :: :: ::  : ::  :: : ::
+DVH05V GTTCAGTAATGATCCTAACCGTAAAATGGCCATCGTTCGTGGTCATCAGCGCTTGAGATA
+          2250      2260      2270      2280      2290      2300   
+
+     390       400       410       420       430       440         
+DVH05_ CGACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAA
+       ::::   :::::::: ::::::::::: ::  :: :::: :  :::::::  ::: ::: 
+DVH05V CGACCGAGTGACGGACTCGATGCTGCTTCATGACACGGAAAGTGACCACGCTATGAAGAC
+          2310      2320      2330      2340      2350      2360   
+
+     450       460       470       480        490       500        
+DVH05_ GGATCTGCTACCTACGTTAACGGAGGGAGAACGTGC-AAATGGATCAGTTGGCGTGACGC
+        :::::: : :::   ::  :   :: : : :  ::  ::::::        :::::: :
+DVH05V TGATCTGTTCCCTGAATTGTCACCGGAAAAGCAGGCGGAATGGAGATCCCTACGTGACAC
+          2370      2380      2390      2400      2410      2420   
+
+      510       520       530       540       550       560        
+DVH05_ TGGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG    
+       ::::::  ::::::   ::::::::: : : :::::::: :   : ::  :: :      
+DVH05V TGGACGACGAATTACAGCGTACTACAAGCAGCGATGGGACGAGAACTGTCTGCTGTCCGT
+          2430      2440      2450      2460      2470      2480   
+
+DVH05V CGAATGTGAAGGACAAAGTTAG
+          2490      2500     
+
+>>DVH05V3_005535-T1 DVH05V3_005535                        (2307 nt)
+ initn: 883 init1: 883 opt: 1109  Z-score: 1610.0  bits: 309.8 E(20292): 8e-84
+banded Smith-Waterman score: 1109; 76.0% identity (76.0% similar) in 391 nt overlap (2-392:1853-2243)
+
+                                            10        20        30 
+DVH05_                              ATGGAGTTTGGGAAGTTCATGGACCGCATGG
+                                     ::::  : :: :: ::: :::: :::::::
+DVH05V ATTACCTGGAAATGCGGTACTTCGCTGACTTGGAAATGGGCAAATTCCTGGATCGCATGG
+           1830      1840      1850      1860      1870      1880  
+
+              40        50        60        70        80        90 
+DVH05_ CAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGCC
+            :::::  : ::: : :: :: ::: :::: ::  : :: :: ::::: ::::: :
+DVH05V AGAAGGCTGGCGTTCTCAACGATACAATCATTGTCATTGCAGGAGATCACGGTCAAGGTC
+           1890      1900      1910      1920      1930      1940  
+
+             100       110       120       130       140       150 
+DVH05_ CGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGTG
+       : :::::::: ::: : :::::::::::::: :::::::: : ::: ::::: :::::::
+DVH05V CAGAATTCGGTAATGATGTCCCTGAAGATCGAGATGTGTCTGCTACACGAGTAGCTGGTG
+           1950      1960      1970      1980      1990      2000  
+
+             160       170       180       190       200       210 
+DVH05_ CGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACAG
+       : ::: : :: ::::: :: :: ::  : :: :  :::::: :::: ::::: :: :: :
+DVH05V CTATTATCGCCGAAGGACGACTGGGTGAAGCAGCAGGGATGATCATTGACGACGCAACGG
+           2010      2020      2030      2040      2050      2060  
+
+             220       230       240       250       260       270 
+DVH05_ AGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTTG
+       :::::::::::::::: :::::  : ::::: ::: ::::  : :: ::::::::::: :
+DVH05V AGCAGTACGATATCCTCAATACGTTGGCAGATATCTCTGGTATTCCAGAAGGAGGTTTCG
+           2070      2080      2090      2100      2110      2120  
+
+             280       290       300       310       320       330 
+DVH05_ TGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTGT
+       : ::: ::::  : :: :: :: ::::: :: ::::: ::::: :: :::::  :::: :
+DVH05V TACAGCATGGCATCGGTCGGTCGCTCAAGCGCAAGATGAAATTTGGCGAACGGGTTGTTT
+           2130      2140      2150      2160      2170      2180  
+
+             340       350       360       370       380       390 
+DVH05_ ACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTACG
+       :::::::::: ::::: ::::::::::: :: :: :: :: ::   :::::: :: ::::
+DVH05V ACAGCAACAATCCGACGCGGAAGATGTCCGTTGTACGTGGTCATTTACGTCTTCGATACG
+           2190      2200      2210      2220      2230      2240  
+
+             400       410       420       430       440       450 
+DVH05_ ACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAGG
+       :                                                           
+DVH05V AGCGCATGACAAAAAGAAGAGCGTCAAGAGTGGCTGGATTTGCGAGACAAAGGACGTCGT
+           2250      2260      2270      2280      2290      2300  
+
+>>DVH05V3_005530-T1 DVH05V3_005530                        (1665 nt)
+ initn: 990 init1: 990 opt: 1097  Z-score: 1594.6  bits: 306.5 E(20292): 8e-83
+banded Smith-Waterman score: 1097; 66.4% identity (66.4% similar) in 562 nt overlap (2-562:1079-1640)
+
+                                            10        20        30 
+DVH05_                              ATGGAGTTTGGGAAGTTCATGGACCGCATGG
+                                     ::::  :::: :: :::::::: :: ::::
+DVH05V ATTATCAGGAAATGCGGTACTTTACGGATCTGGAACTTGGCAAATTCATGGATCGGATGG
+     1050      1060      1070      1080      1090      1100        
+
+              40        50        60        70        80        90 
+DVH05_ CAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGCC
+       :::  :  :: :: ::: : :: ::::: ::  : ::::: :: ::::: :: ::::  :
+DVH05V CAGAAGAAGGGATTCTCAACGATACGATTGTAATTATCTCGGGAGACCATGGCCAAGCGC
+     1110      1120      1130      1140      1150      1160        
+
+             100       110       120       130       140       150 
+DVH05_ CGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGTG
+       : ::::::::  :  :    :: :::   :: ::: :::::: :::::: :::::::: :
+DVH05V CAGAATTCGGCTACGATAAGCCGGAACTCCGTGATTTGTCGGCTACTCGCGTGGCTGGAG
+     1170      1180      1190      1200      1210      1220        
+
+             160       170       180       190       200       210 
+DVH05_ CGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACAG
+       :: : :: ::::: ::  : :: ::  :    :  ::::      : :: :: ::  : :
+DVH05V CGCTGGTCGCTGAGGGAAGACTGGGTCAATTCGCTGGGACCAAATTTGAAGACGCTGCCG
+     1230      1240      1250      1260      1270      1280        
+
+             220       230       240       250       260       270 
+DVH05_ AGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTTG
+       :::::::::: ::: : :::::::: ::::: :: :::::  ::::::: :  :: ::  
+DVH05V AGCAGTACGACATCTTAAATACCCTTGCAGATATAACTGGTATACCGGAGGACGGGTTCT
+     1290      1300      1310      1320      1330      1340        
+
+             280       290       300       310       320       330 
+DVH05_ TGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTGT
+       ::::: : ::::: ::  : ::::::::::: ::: :    :::::::::::  :  : :
+DVH05V TGCAGAACGGAGTGGGGAGGTCACTCAAACGCAAGGTTCCGTTCGGAGAACGCGTGCTTT
+     1350      1360      1370      1380      1390      1400        
+
+             340       350       360       370       380       390 
+DVH05_ ACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTACG
+         ::::::::::: : ::  ::::::::::: :: :: ::  :: : ::::::: ::: :
+DVH05V TTAGCAACAACCCAAGTCATAAGATGTCGGTTGTCCGTGGCAACAAGCGTCTGCAGTATG
+     1410      1420      1430      1440      1450      1460        
+
+             400       410       420       430       440       450 
+DVH05_ ACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAGG
+       ::::     :: ::  : :::: :: ::  ::::    :: :: ::::::::: : :: :
+DVH05V ACAAACATTCGAATGAGGTGCTCCTTCATGACGCTCGTACGGATCACGACATGAAAAACG
+     1470      1480      1490      1500      1510      1520        
+
+             460       470       480        490       500       510
+DVH05_ ATCTGCTACCTACGTTAACGGAGGGAGAAC-GTGCAAATGGATCAGTTGGCGTGACGCTG
+       ::::: : ::     : :     : ::: : :    : ::: :    ::: :  :   ::
+DVH05V ATCTGTTCCCAGATCTCAGTACTGCAGAGCAGGAGGACTGGCTGGCCTGGAGGAAAAATG
+     1530      1540      1550      1560      1570      1580        
+
+              520       530       540       550       560          
+DVH05_ GACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG      
+       : ::  : :::::: :::: ::::: :  :: :::::     : :: ::: :        
+DVH05V GTCGTTGGATTAACACGTATTACACCACGCGCTGGGACCAGAAATGTTTGCTTACAGAAT
+     1590      1600      1610      1620      1630      1640        
+
+DVH05V GCGATGCAGCTACTTGA
+     1650      1660     
+
+>>DVH05V3_013230-T1 DVH05V3_013230                        (2535 nt)
+ initn: 806 init1: 366 opt: 1084  Z-score: 1571.9  bits: 302.9 E(20292): 9.7e-82
+banded Smith-Waterman score: 1084; 66.4% identity (66.4% similar) in 560 nt overlap (1-559:1939-2492)
+
+                                             10        20        30
+DVH05_                               ATGGAGTTTGGGAAGTTCATGGACCGCATG
+                                     ::: :  : :: :::::: ::::::: :::
+DVH05V CGGTACCTGGAAGCACGGTACTTTACCGACATGCAACTGGGCAAGTTCTTGGACCGAATG
+     1910      1920      1930      1940      1950      1960        
+
+               40        50        60        70        80        90
+DVH05_ GCAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGC
+       :  :  :  :: :: :: ::  :::: ::::: :: :::: ::: :: :: :: ::::  
+DVH05V GATGAAGAAGGCATTCTAGACAACACTATCGTCGTCATCTATGGAGATCATGGCCAAGCA
+     1970      1980      1990      2000      2010      2020        
+
+              100       110       120       130       140       150
+DVH05_ CCGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGT
+       ::::::   : ::  :    : :::::      :: :  ::  : :: :::::: :::::
+DVH05V CCGGAAGCAGAGATCATCTACACTGAA------GAGGAATCTTTAACGCGAGTGCCTGGT
+     2030      2040      2050            2060      2070      2080  
+
+              160       170       180       190       200       210
+DVH05_ GCGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACA
+          ::: : :: :: ::  : :: :::::: :::  ::  ::   :: :: :: ::  : 
+DVH05V CTCATTCTTGCCGAGGGAAGACTAGGAAATTCTGCTGGCCTGAAGATCGAAGACGCTGCG
+           2090      2100      2110      2120      2130      2140  
+
+              220       230       240       250       260       270
+DVH05_ GAGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTT
+       :: :: :: :::::::: :: ::: :::: :: ::::: ::  : ::::: ::::: :: 
+DVH05V GAACACTATGATATCCTCAACACCTTAGCGGATATCACGGGGCTTCCGGACGGAGGATTC
+           2150      2160      2170      2180      2190      2200  
+
+              280       290       300       310       320       330
+DVH05_ GTGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTG
+       :: ::  :::: ::::: :: ::::::::::: ::  : :  :: :: ::::::   :::
+DVH05V GTCCAAAATGGTGTTGGACGTTCACTCAAACGTAAAGTTACGTTTGGTGAACGTGGAGTG
+           2210      2220      2230      2240      2250      2260  
+
+              340       350       360       370       380       390
+DVH05_ TACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTAC
+       :  ::::::  ::::   :  ::::::::::::::::: ::  :  : ::::: :: :::
+DVH05V TTTAGCAACGTCCCGGGCCATAAGATGTCGGTGGTGCGTGGCAATTACCGTCTACGCTAC
+           2270      2280      2290      2300      2310      2320  
+
+              400       410       420       430       440       450
+DVH05_ GACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAG
+       :::   ::::::::  : ::: : ::::::::: : ::  : ::::::   ::: :  : 
+DVH05V GACGGAGTGACGGACGCTATGTTCCTGCACAACACCGAGTCGGACCACTGGATGAATCAC
+           2330      2340      2350      2360      2370      2380  
+
+              460       470       480        490       500         
+DVH05_ GATCTGCTACCTACGTTAACGGAGGGAGAACGTGCA-AATGGATCAGTTGGCGTGACGCT
+       ::::: :: ::     :  :    : : : :: ::: :::::   : :::::: ::   :
+DVH05V GATCTCCTGCCAGAACTTCCACCTGAAAAGCGGGCAGAATGGGAAACTTGGCGCGAAAAT
+           2390      2400      2410      2420      2430      2440  
+
+     510       520       530       540       550       560         
+DVH05_ GGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG     
+       :::::  ::::     : :::::::: ::::: ::::: : : : ::: :          
+DVH05V GGACGCCGAATCTCTGCATACTACACCAAACGGTGGGACGACAACTGCCTACTTGCTGTC
+           2450      2460      2470      2480      2490      2500  
+
+DVH05V AACTGTACGGGAAATACTTACGAAGACGCGTAG
+           2510      2520      2530     
+
+>>DVH05V3_007638-T1 DVH05V3_007638                        (2487 nt)
+ initn: 917 init1: 724 opt: 1047  Z-score: 1516.6  bits: 292.6 E(20292): 1.2e-78
+banded Smith-Waterman score: 1047; 65.8% identity (65.8% similar) in 564 nt overlap (3-564:1917-2473)
+
+                                           10        20        30  
+DVH05_                             ATGGAGTTTGGGAAGTTCATGGACCGCATGGC
+                                     :::: : :: :::::::::::::: :::: 
+DVH05V ATACATGAAAGTCAGATACTTCACTGACCAGGAGCTGGGCAAGTTCATGGACCGAATGGA
+       1890      1900      1910      1920      1930      1940      
+
+             40        50        60        70        80        90  
+DVH05_ AGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGCCC
+           :  ::: : ::  : ::::: :::::::::::    :: :: ::::: ::::  ::
+DVH05V CAAGGAAGGAGTTCTGAACGACACAATCGTTGTGATTATCGGAGATCACGGCCAAGCACC
+       1950      1960      1970      1980      1990      2000      
+
+            100       110       120       130       140       150  
+DVH05_ GGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGTGC
+       ::::      : : :   : :  :    : ::: :  ::::: ::::::::  : :  ::
+DVH05V GGAA------AGTGACAACGCCAACTTGCACGAGGAATCGGTGACTCGAGTACCAGCCGC
+       2010            2020      2030      2040      2050      2060
+
+            160       170       180       190       200       210  
+DVH05_ GATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACAGA
+        ::: : :: :: ::  : :: ::: ::::::::::: : :: :: ::::::::  : ::
+DVH05V TATTATCGCCGAGGGAAGACTCGGAGATGCTGTGGGGCTCGTGATTGACGATGCAGCTGA
+             2070      2080      2090      2100      2110      2120
+
+            220       230       240       250       260       270  
+DVH05_ GCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTTGT
+       :::::::::::: :: :::::  : :: :: :: :::::  ::::::: ::::: ::   
+DVH05V GCAGTACGATATTCTCAATACTTTGGCGGATATTACTGGGTTACCGGAGGGAGGATTCCA
+             2130      2140      2150      2160      2170      2180
+
+            280       290       300       310       320       330  
+DVH05_ GCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTGTA
+        ::  : :: :: :: :: ::  : :: :: :: ::    ::::: :: :: ::::: : 
+DVH05V ACAAAACGGCGTCGGACGTTCCTTGAAGCGTAAAATTCCGTTCGGTGAGCGAATTGTTTT
+             2190      2200      2210      2220      2230      2240
+
+            340       350       360       370       380       390  
+DVH05_ CAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTACGA
+       ::: ::  : :: :  :: :: ::: :: : :: :: :: :: ::::: :: :: :::::
+DVH05V CAGTAATGATCCTATGCGTAAAATGGCGATTGTACGTGGCCATGAACGACTTCGATACGA
+             2250      2260      2270      2280      2290      2300
+
+            400       410       420       430       440       450  
+DVH05_ CAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAGGA
+       :   ::::::::  : ::: :::::::: :  : ::    ::  :  :::::  :: :::
+DVH05V CGCAGTGACGGACACAATGATGCTGCACGATACTGAACAGGATTATCACATGACGACGGA
+             2310      2320      2330      2340      2350      2360
+
+            460       470       480         490       500       510
+DVH05_ TCTGCTACCTACGTTAACGGAGGGAGAACGTG--CAAATGGATCAGTTGGCGTGACGCTG
+        ::: ::::     : : :   : ::::::::  :::  :::   :::  :: :: : ::
+DVH05V CCTGTTACCGTTCCTCAAGCCAGAAGAACGTGCTCAATGGGAAGCGTT-TCGAGAGGATG
+             2370      2380      2390      2400       2410         
+
+              520       530       540       550       560          
+DVH05_ GACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG      
+       ::::  : :::    : :::::::  ::::: ::::: :   : :: ::: :::      
+DVH05V GACGTCGCATTGCTGCTTACTACATCAAACGGTGGGATGAAAACTGTTTGCTAGCTGTCA
+    2420      2430      2440      2450      2460      2470         
+
+DVH05V AGTGTTAG
+    2480       
+
+>>DVH05V3_016887-T1 DVH05V3_016887                        (2346 nt)
+ initn: 639 init1: 507 opt: 995  Z-score: 1439.2  bits: 278.2 E(20292): 2.6e-74
+banded Smith-Waterman score: 995; 65.0% identity (65.0% similar) in 565 nt overlap (2-564:1775-2332)
+
+                                            10        20        30 
+DVH05_                              ATGGAGTTTGGGAAGTTCATGGACCGCATGG
+                                     ::::: : :: ::::: ::::: :: ::::
+DVH05V GATACATGAAAGTTAGATCTTTTTGTGATTTGGAGCTGGGCAAGTTTATGGATCGGATGG
+         1750      1760      1770      1780      1790      1800    
+
+              40        50        60        70        80        90 
+DVH05_ CAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGCC
+         :  :  ::  ::::  : ::::: :::::::: ::    :: :: ::::: ::::  :
+DVH05V AGGAAGAAGGTGTCCTGAATGACACTATCGTTGTAATAGTCGGAGATCACGGTCAAGCAC
+         1810      1820      1830      1840      1850      1860    
+
+             100       110       120       130       140       150 
+DVH05_ CGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGTG
+       : ::  : :  ::  :  :: :  :    :  :: :  ::::: ::  ::::: : :  :
+DVH05V CAGAGATTGATAACTA--TCGCATA----CATGAGGAATCGGTGACGAGAGTGCCAGCAG
+         1870      1880            1890      1900      1910        
+
+             160       170       180       190       200       210 
+DVH05_ CGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACAG
+       : ::  : :: :::::  : :: ::  : ::::::::: : :: :: ::::::::  : :
+DVH05V CTATCATTGCGGAAGGAAGGCTAGGTGACGCTGTGGGGCTTGTGATCGACGATGCAGCTG
+     1920      1930      1940      1950      1960      1970        
+
+             220       230       240       250       260       270 
+DVH05_ AGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTTG
+       :::::::::: :: :: :: ::  : :: :: ::::::::  : :: :::::::: ::: 
+DVH05V AGCAGTACGACATTCTCAACACATTGGCCGATATCACTGGCTTGCCCGAAGGAGGATTTC
+     1980      1990      2000      2010      2020      2030        
+
+             280       290       300       310       320       330 
+DVH05_ TGCAGGATGGAGTTGGCCGATCACTCAAACGGAAGATCAAATTCGGAGAACGTATTGTGT
+         ::  : :: ::::: :: ::: : ::::: :: ::    ::::: :: ::  : :: :
+DVH05V CACAAAACGGCGTTGGTCGTTCATTAAAACGTAAAATTCCTTTCGGTGATCGGGTCGTCT
+     2040      2050      2060      2070      2080      2090        
+
+             340       350       360       370       380       390 
+DVH05_ ACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTGCGGTACG
+        ::::::  : :: :  :: :::::: :: : :: :: :: :: ::::: :: :: ::::
+DVH05V TCAGCAATGATCCTATGCGCAAGATGGCGATTGTACGTGGTCATGAACGCCTTCGCTACG
+     2100      2110      2120      2130      2140      2150        
+
+             400       410       420       430       440       450 
+DVH05_ ACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATGGAGAAGG
+       ::   :: :::::  : :::  ::: :::::  ::::    ::: :   ::::     ::
+DVH05V ACGCTGTAACGGAGACAATGACGCTTCACAATACGGAGCAGGACTATTTCATGACTGCGG
+     2160      2170      2180      2190      2200      2210        
+
+             460         470       480       490       500         
+DVH05_ ATCTGCTACC--TACGTTAACGGAGGGAGAACGTGCAAATGGATCAGTTGGCGTGACGCT
+       : ::  : ::  :::   : : :  ::::   :  :::  :::   :::  :: :: : :
+DVH05V ACCTATTTCCTTTACTGAATCCGGAGGAGCGTGCTCAATGGGAAGCGTT-TCGAGAGGAT
+     2220      2230      2240      2250      2260       2270       
+
+     510       520       530       540       550       560         
+DVH05_ GGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAGTGCTTGTTAG     
+       :::::  ::::::    :::::::: ::: :::::::: : : : :::::: : :     
+DVH05V GGACGTCGAATTACTGAGTACTACAAGAAGCGATGGGATGACAACTGCTTGCTCGTTGCC
+      2280      2290      2300      2310      2320      2330       
+
+DVH05V AAATGCTGA
+      2340      
+
+>>DVH05V3_014094-T1 DVH05V3_014094                        (471 nt)
+ initn: 809 init1: 809 opt: 955  Z-score: 1392.2  bits: 267.2 E(20292): 5.3e-71
+banded Smith-Waterman score: 955; 67.4% identity (67.4% similar) in 479 nt overlap (28-505:1-471)
+
+               10        20        30        40        50        60
+DVH05_ ATGGAGTTTGGGAAGTTCATGGACCGCATGGCAGCCGCTGGAATCCTCGAAGACACGATC
+                                  ::::   : :  ::  : ::  : ::::: :: 
+DVH05V                            ATGGAGACAGAAGGCGTTCTAAACGACACCATT
+                                          10        20        30   
+
+               70        80        90       100       110       120
+DVH05_ GTTGTGATCTCTGGTGACCACGGACAAGGCCCGGAATTCGGGAATAAAGTCCCTGAAGAT
+       ::::: ::   ::: :: ::::::::::  :: :::        : : ::  :  :    
+DVH05V GTTGTCATTGTTGGCGATCACGGACAAGCTCCTGAA------GCTGATGTTACGAATACC
+            40        50        60              70        80       
+
+              130       140       150       160       170       180
+DVH05_ CGCGATGTGTCGGTTACTCGAGTGGCTGGTGCGATTGTGGCTGAAGGTCGTCTTGGAAAT
+       : ::: :  :: :: :::::::::::::: :: ::: : ::::::::  :  : ::  : 
+DVH05V CACGAGGAATCTGTCACTCGAGTGGCTGGAGCTATTATTGCTGAAGGAAGATTGGGTGAA
+        90       100       110       120       130       140       
+
+              190       200       210       220       230       240
+DVH05_ GCTGTGGGGATGGTCATGGACGATGCCACAGAGCAGTACGATATCCTGAATACCCTAGCA
+        :::  ::  : ::::: :: :: ::    ::::: :::::::: :: :: :: :: :: 
+DVH05V TCTGCAGGTTTAGTCATCGAAGACGCTGTGGAGCACTACGATATGCTCAACACGCTGGCG
+       150       160       170       180       190       200       
+
+              250       260       270       280       290       300
+DVH05_ GACATCACTGGAGTACCGGAAGGAGGTTTTGTGCAGGATGGAGTTGGCCGATCACTCAAA
+       :::::::: ::  ::::  : ::::::::: : :::  ::: ::::: :: :::::::: 
+DVH05V GACATCACAGGTTTACCCAATGGAGGTTTTCTCCAGACTGGTGTTGGTCGTTCACTCAAG
+       210       220       230       240       250       260       
+
+              310       320       330       340       350       360
+DVH05_ CGGAAGATCAAATTCGGAGAACGTATTGTGTACAGCAACAACCCGACTCGGAAGATGTCG
+       :: ::  :   ::: ::::::::  : :: : ::: ::: : :::: ::: :::::::::
+DVH05V CGTAAAGTTCCATTTGGAGAACGAGTGGTCTTCAGTAACGATCCGAGTCGAAAGATGTCG
+       270       280       290       300       310       320       
+
+              370       380       390       400       410       420
+DVH05_ GTGGTGCGAGGACACGAACGTCTGCGGTACGACAAGGTGACGGATTCGATGCTGCTGCAC
+        : :: ::::: ::: : :::::::: :::::    ::::::: ::::::: ::::::::
+DVH05V ATTGTTCGAGGCCACCAGCGTCTGCGTTACGATCCAGTGACGGCTTCGATGATGCTGCAC
+       330       340       350       360       370       380       
+
+              430       440       450       460       470       480
+DVH05_ AACGCGGACACCGACCACGACATGGAGAAGGATCTGCTACCTACGTTAACGGAGGGAGAA
+        :  : :: :  ::::: ::::::::::  ::: :: ::     : :  ::  ::   ::
+DVH05V GATACTGAGAATGACCATGACATGGAGA--GATTTGGTATTAGAGCTTTCGCCGGAGAAA
+       390       400       410         420       430       440     
+
+               490       500       510       520       530         
+DVH05_ CGTGCA-AATGGATCAGTTGGCGTGACGCTGGACGGAGAATTAACTCGTACTACACGAAA
+       :  ::: :::::   :  ::::::::                                  
+DVH05V CAAGCAGAATGGGAGAAGTGGCGTGA                                  
+         450       460       470                                   
+
+>>DVH05V3_005421-T1 DVH05V3_005421                        (7191 nt)
+ initn: 220 init1: 220 opt: 505  Z-score: 696.9  bits: 142.5 E(20292): 1.9e-33
+banded Smith-Waterman score: 505; 56.2% identity (56.2% similar) in 578 nt overlap (1-562:4123-4688)
+
+                                             10        20        30
+DVH05_                               ATGGAGTTTGGGAAGTTCATGGACCGCATG
+                                     ::::  :::::    :::::::: :   ::
+DVH05V GACTACGTGGAGCTGCGCTACTTTTCCGACATGGTATTTGGCCGATTCATGGAACAGCTG
+           4100      4110      4120      4130      4140      4150  
+
+               40        50        60        70        80        90
+DVH05_ GCAGCCGCTGGAATCCTCGAAGACACGATCGTTGTGATCTCTGGTGACCACGGACAAGGC
+       : :   :      : ::  ::::::::::::::::: :   ::: :::::::: :: : :
+DVH05V GAAAGGGACAACGTGCTGAAAGACACGATCGTTGTGGTTGTTGGAGACCACGGCCAGGCC
+           4160      4170      4180      4190      4200      4210  
+
+              100       110       120       130       140       150
+DVH05_ CCGGAATTCGGGAATAAAGTCCCTGAAGATCGCGATGTGTCGGTTACTCGAGTGGCTGGT
+       :::::    :: :    :   :: ::  :   : :  :  :     :::::::::: : :
+DVH05V CCGGAGCGTGGCAGCGCAACACCCGAGCAGGACCAGATCGCCACATCTCGAGTGGCGGCT
+           4220      4230      4240      4250      4260      4270  
+
+              160       170       180       190       200       210
+DVH05_ GCGATTGTGGCTGAAGGTCGTCTTGGAAATGCTGTGGGGATGGTCATGGACGATGCCACA
+       :: ::: : :: :: ::  :  :    :   : :      ::::  : :::::::   : 
+DVH05V GCAATTATCGCCGAGGGCAGGATACAGACCCCAG------TGGTGCTTGACGATGTGGCC
+           4280      4290      4300            4310      4320      
+
+              220       230       240       250       260       270
+DVH05_ GAGCAGTACGATATCCTGAATACCCTAGCAGACATCACTGGAGTACCGGAAGGAGGTTTT
+          :::: ::: :: ::::: :: :: :: :: :::   ::  : :: :  :: ::: : 
+DVH05V TCTCAGTCCGACATTCTGAACACGCTGGCCGATATCGTGGGGCTCCCCGTTGGCGGTCTG
+       4330      4340      4350      4360      4370      4380      
+
+              280       290       300             310       320    
+DVH05_ GTGCAGGATGGAGTTGGCCGATCACTCAAACGGAAG------ATCAAATTCGGAGAACGT
+        ::::     :  : ::::: ::::: :: :: :::      : :    : ::: : :: 
+DVH05V CTGCAAACCAGTATCGGCCGGTCACTGAAGCGCAAGCCGCCCAACGGTGTTGGAAAGCGG
+       4390      4400      4410      4420      4430      4440      
+
+          330       340       350       360       370       380    
+DVH05_ ATTGTGTACAGCAACAACCCGACTCGGAAGATGTCGGTGGTGCGAGGACACGAACGTCTG
+        : :  : :: :::::::::: :   :::  :  : : ::::   ::  ::   :: :: 
+DVH05V GTGGCTTTCACCAACAACCCGTCCACGAACCTCGCAGCGGTGGTCGGCAACATCCGCCTT
+       4450      4460      4470      4480      4490      4500      
+
+          390       400       410       420       430       440    
+DVH05_ CGGTACGACAAGGTGACGGATTCGATGCTGCTGCACAACGCGGACACCGACCACGACATG
+       :  : :  :  :  :::::::  ::::::: : : :  :    : ::  : : :::   :
+DVH05V CACTTCTTC--GCGGACGGATCGGATGCTG-TACGCGCCTACCATACGCAACGCGATCCG
+       4510        4520      4530       4540      4550      4560   
+
+          450       460               470       480         490    
+DVH05_ GAGAAGGATCTGCTACCT--------ACGTTAACGGAGGGAGAACGTGCA--AATGGATC
+        :: : :::   : ::::        :: ::  ::::  ::   ::::::  ::  : : 
+DVH05V CAGCA-GATGCACGACCTCATGGGCGACCTT-TCGGA-CGAACGCGTGCACGAACTGCTA
+           4570      4580      4590        4600      4610      4620
+
+          500       510       520       530       540       550    
+DVH05_ AGTTGGCGTGACGCTGGACGGAGAATTAACTCGTACTACACGAAACGATGGGAAGGCGAG
+        :     : :::: ::: ::     : ::  :::: : :: : : :: :::::   : ::
+DVH05V CGGATATGCGACGATGGTCGCGCTCTCAATGCGTATTTCAAGCACCGCTGGGACAACAAG
+             4630      4640      4650      4660      4670      4680
+
+          560                                                      
+DVH05_ TGCTTGTTAG                                                  
+       :::::: :                                                    
+DVH05V TGCTTGCTGCAGCCTATGTGCGGCCAGCAGGCAGCAGCGCAGCACCATTACTACACGTCC
+             4690      4700      4710      4720      4730      4740
+
+
+  2>>>DVH05_013042-T1 DVH05_013042 - 678 nt
+Library: ../annotation_v3/funannot/predict_results/Phytophthora_capsici_LT1534.transcripts.fa
+  25696683 residues in 20292 sequences
+
+Statistics: Altschul/Gish params: n0: 678 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 1601 (1624) to 1601 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.169), E-opt: 0.05 (0.0393), width:  16
+ Scan time:  1.290
+
+The best scores are:                                      opt bits E(20292)
+DVH05V3_011464-T1 DVH05V3_011464               (1107) [f] 2872 798.1       0
+
+>>DVH05V3_011464-T1 DVH05V3_011464                        (1107 nt)
+ initn: 2870 init1: 2870 opt: 2872  Z-score: 4253.6  bits: 798.1 E(20292):    0
+banded Smith-Waterman score: 2872; 99.7% identity (99.7% similar) in 578 nt overlap (101-678:530-1107)
+
+               80        90       100       110       120       130
+DVH05_ AATTGGTCAAATTGCTGAAAGATTTCTGTAAACAGGACCCGAGCACTGTCAACAGCATCG
+                                     : : ::::::::::::::::::::::::::
+DVH05V GTGTCATGTCCTACGCGGTAGAAAGAGACGACCGGGACCCGAGCACTGTCAACAGCATCG
+     500       510       520       530       540       550         
+
+              140       150       160       170       180       190
+DVH05_ TCGGGGGCACAGTTGACGCGGAAAAGGCAGATTCGGAGCTGTTCGGGTGCCGGTCTCGCG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TCGGGGGCACAGTTGACGCGGAAAAGGCAGATTCGGAGCTGTTCGGGTGCCGGTCTCGCG
+     560       570       580       590       600       610         
+
+              200       210       220       230       240       250
+DVH05_ GTCTTCGGGATGGTACAGCCAGACCCCACACGCCTCTTGTCGGGGGAGAAAGTGAAGCTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTCTTCGGGATGGTACAGCCAGACCCCACACGCCTCTTGTCGGGGGAGAAAGTGAAGCTT
+     620       630       640       650       660       670         
+
+              260       270       280       290       300       310
+DVH05_ TGAAGAGACTGGAGGAATTCTGCAAGGATAAACGTCGAGTTGGGCTGTTCGAGAAGCCCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TGAAGAGACTGGAGGAATTCTGCAAGGATAAACGTCGAGTTGGGCTGTTCGAGAAGCCCA
+     680       690       700       710       720       730         
+
+              320       330       340       350       360       370
+DVH05_ AGACGTCGCCTGTGGCAATCAACGCCCCCTCCACGACGGCCCTGAGCGCGTACTTGTGCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AGACGTCGCCTGTGGCAATCAACGCCCCCTCCACGACGGCCCTGAGCGCGTACTTGTGCT
+     740       750       760       770       780       790         
+
+              380       390       400       410       420       430
+DVH05_ TCGGGTGTCTGAGCGCACGGGAGTTTTTCTACCGCATCATGTTCATTCAGCTGCAGTTCC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TCGGGTGTCTGAGCGCACGGGAGTTTTTCTACCGCATCATGTTCATTCAGCTGCAGTTCC
+     800       810       820       830       840       850         
+
+              440       450       460       470       480       490
+DVH05_ CGCTTCGTCCGGGCCCACACAGGTCACACTTGAAGGCCAACTCATGTGGCGCGAGTTCTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGCTTCGTCCGGGCCCACACAGGTCACACTTGAAGGCCAACTCATGTGGCGCGAGTTCTT
+     860       870       880       890       900       910         
+
+              500       510       520       530       540       550
+DVH05_ TTACTGCTACGCGTGTGGAGCGGAATCCAGGCTGTAAACAGATCGACTGGAGGCTACGGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TTACTGCTACGCGTGTGGAGCGGAATCCAGGCTGTAAACAGATCGACTGGAGGCTACGGG
+     920       930       940       950       960       970         
+
+              560       570       580       590       600       610
+DVH05_ ATGAAGCGCACGTAACTAATCCGGAATACCACCAACCTGTCCCGTTGGACGCAGACGAGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATGAAGCGCACGTAACTAATCCGGAATACCACCAACCTGTCCCGTTGGACGCAGACGAGA
+     980       990      1000      1010      1020      1030         
+
+              620       630       640       650       660       670
+DVH05_ AGCTCGCGTTGCGCCAGTTCCAGTGCTGGAAGGACGGACGCACCGGGTTCCCTGGATTGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AGCTCGCGTTGCGCCAGTTCCAGTGCTGGAAGGACGGACGCACCGGGTTCCCTGGATTGA
+    1040      1050      1060      1070      1080      1090         
+
+               
+DVH05_ CGCTGTGA
+       ::::::::
+DVH05V CGCTGTGA
+    1100       
+
+
+  3>>>DVH05_006289-T1 DVH05_006289 - 1506 nt
+Library: ../annotation_v3/funannot/predict_results/Phytophthora_capsici_LT1534.transcripts.fa
+  25696683 residues in 20292 sequences
+
+Statistics:  Expectation_n fit: rho(ln(x))= 6.6413+/-0.00191; mu= 34.2440+/- 0.129
+ mean_var=51.0603+/-10.599, 0's: 0 Z-trim(81.8): 468  B-trim: 0 in 0/41
+ Lambda= 0.179487
+ statistics sampled from 2184 (2297) to 2184 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.181), E-opt: 0.05 (0.0458), width:  16
+ Scan time:  2.030
+
+The best scores are:                                      opt bits E(20292)
+DVH05V3_002198-T1 DVH05V3_002198               (1506) [f] 7530 1954.8       0
+
+>>DVH05V3_002198-T1 DVH05V3_002198                        (1506 nt)
+ initn: 7530 init1: 7530 opt: 7530  Z-score: 10496.0  bits: 1954.8 E(20292):    0
+banded Smith-Waterman score: 7530; 100.0% identity (100.0% similar) in 1506 nt overlap (1-1506:1-1506)
+
+               10        20        30        40        50        60
+DVH05_ ATGACTGGTGCGCGCTCTTCCTCCGCGGCCACCAGTGATGCCAGTCTCTTTCTCTCTCTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATGACTGGTGCGCGCTCTTCCTCCGCGGCCACCAGTGATGCCAGTCTCTTTCTCTCTCTT
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+DVH05_ TCAATAAAAAAAGAAAAAAAAAGGTTTCCCCCCTCCGCCAACGACAGCAATGGCCAACTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TCAATAAAAAAAGAAAAAAAAAGGTTTCCCCCCTCCGCCAACGACAGCAATGGCCAACTC
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+DVH05_ CGCGACTTCCCCGACCAACAGCCCGGCCCCCGCTGCCAGTGCCGCCCCCGCCACGTCCAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGCGACTTCCCCGACCAACAGCCCGGCCCCCGCTGCCAGTGCCGCCCCCGCCACGTCCAC
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+DVH05_ GGCGTCGACTGCGGCCCCGTCGGCCGCTGGCGCTGCTCAGCCGTTCCACACGGCGTCGCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GGCGTCGACTGCGGCCCCGTCGGCCGCTGGCGCTGCTCAGCCGTTCCACACGGCGTCGCT
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+DVH05_ GTACGTGGGGGACATCCACCCGGACGTGACGGAGCGTTGCTGTTCGAGATCTTCAACGCC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTACGTGGGGGACATCCACCCGGACGTGACGGAGCGTTGCTGTTCGAGATCTTCAACGCC
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+DVH05_ GTGGGACCCGTGGCCAGCATCCGCGTGTGCCGCGACGCCGTGACGCGCCGGTCGCTGGGC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTGGGACCCGTGGCCAGCATCCGCGTGTGCCGCGACGCCGTGACGCGCCGGTCGCTGGGC
+              310       320       330       340       350       360
+
+              370       380       390       400       410       420
+DVH05_ TACGCCTACGTGAACTTCCACAATGTGGCGGACGCGGAGCGCGCGCTGGACACGATGAAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TACGCCTACGTGAACTTCCACAATGTGGCGGACGCGGAGCGCGCGCTGGACACGATGAAC
+              370       380       390       400       410       420
+
+              430       440       450       460       470       480
+DVH05_ TTCACGAGCATCAAGGGCGTCCCGTGCCGCATCATGTGGTCGCAGCGCGACCCGTCGCTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TTCACGAGCATCAAGGGCGTCCCGTGCCGCATCATGTGGTCGCAGCGCGACCCGTCGCTG
+              430       440       450       460       470       480
+
+              490       500       510       520       530       540
+DVH05_ CGCAAGTCGGGCGTTGGCAACATCTTTGTCAAGAACCTGGACACGTCCATTGACAACAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGCAAGTCGGGCGTTGGCAACATCTTTGTCAAGAACCTGGACACGTCCATTGACAACAAG
+              490       500       510       520       530       540
+
+              550       560       570       580       590       600
+DVH05_ GCGCTGTACGACACGTTCTCGCTTTTCGGCAACATTCTCAGCTGCAAGGTGGCTATTGAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GCGCTGTACGACACGTTCTCGCTTTTCGGCAACATTCTCAGCTGCAAGGTGGCTATTGAC
+              550       560       570       580       590       600
+
+              610       620       630       640       650       660
+DVH05_ CACACCAACGGCAACAGCAAGGGATACGGCTACGTGCACTACGAGACGGCGGAGGCTGCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CACACCAACGGCAACAGCAAGGGATACGGCTACGTGCACTACGAGACGGCGGAGGCTGCT
+              610       620       630       640       650       660
+
+              670       680       690       700       710       720
+DVH05_ AACGAGGCTATTGCCAAGATTAACGGCATGCTCATTGCCGGTACGGAAGTGTTCGTTGGC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AACGAGGCTATTGCCAAGATTAACGGCATGCTCATTGCCGGTACGGAAGTGTTCGTTGGC
+              670       680       690       700       710       720
+
+              730       740       750       760       770       780
+DVH05_ CACTTCCAGAAACGTCAGGACCGTCCGGACGCTGATGACTGGACCAACTGCTACGTGAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CACTTCCAGAAACGTCAGGACCGTCCGGACGCTGATGACTGGACCAACTGCTACGTGAAG
+              730       740       750       760       770       780
+
+              790       800       810       820       830       840
+DVH05_ AACATCCCCACGCAGTGGACGGATGCGGACCTGTTGAAGGAGTTCGAGCCGTTCGGAAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AACATCCCCACGCAGTGGACGGATGCGGACCTGTTGAAGGAGTTCGAGCCGTTCGGAAAG
+              790       800       810       820       830       840
+
+              850       860       870       880       890       900
+DVH05_ GTGCTGAGCGCCGTTGTCATGAAGGACAACGCCAACCCGGACCAGAACCGCGGCTTCGGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTGCTGAGCGCCGTTGTCATGAAGGACAACGCCAACCCGGACCAGAACCGCGGCTTCGGA
+              850       860       870       880       890       900
+
+              910       920       930       940       950       960
+DVH05_ TTCGTCAACTACGAAGAGACGGAGGCTGCCCACAAGGCTGTGGACGCTCTTAACGGCAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TTCGTCAACTACGAAGAGACGGAGGCTGCCCACAAGGCTGTGGACGCTCTTAACGGCAAG
+              910       920       930       940       950       960
+
+              970       980       990      1000      1010      1020
+DVH05_ TCGTACCCTGCTGGCGAGGGCGTGGAGACCGAGCTGTACGTCGGTAAGGCCCAGAAGCGC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TCGTACCCTGCTGGCGAGGGCGTGGAGACCGAGCTGTACGTCGGTAAGGCCCAGAAGCGC
+              970       980       990      1000      1010      1020
+
+             1030      1040      1050      1060      1070      1080
+DVH05_ TCGGAGCGTGAGCGTGAGTTGCGCAACAAGTTTGAGCAGCTCAAGATGGAACGTATTAAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TCGGAGCGTGAGCGTGAGTTGCGCAACAAGTTTGAGCAGCTCAAGATGGAACGTATTAAC
+             1030      1040      1050      1060      1070      1080
+
+             1090      1100      1110      1120      1130      1140
+DVH05_ AAGTACCAGGGCGTGAACCTTTACGTGAAGAACCTGGACGACCAGCTGAACGACGACGAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AAGTACCAGGGCGTGAACCTTTACGTGAAGAACCTGGACGACCAGCTGAACGACGACGAG
+             1090      1100      1110      1120      1130      1140
+
+             1150      1160      1170      1180      1190      1200
+DVH05_ CTGCGTGAGGCTTTCGCCGAGTGCGGTACGATTACGTCGTCGCGTGTGATGCGCGACCAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CTGCGTGAGGCTTTCGCCGAGTGCGGTACGATTACGTCGTCGCGTGTGATGCGCGACCAG
+             1150      1160      1170      1180      1190      1200
+
+             1210      1220      1230      1240      1250      1260
+DVH05_ AACGGAAACTCGCGCGGCTTCGGCTTCGTGTGCTTCTCGACCCCTGAGGAGGCCAACAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AACGGAAACTCGCGCGGCTTCGGCTTCGTGTGCTTCTCGACCCCTGAGGAGGCCAACAAG
+             1210      1220      1230      1240      1250      1260
+
+             1270      1280      1290      1300      1310      1320
+DVH05_ GCTGTCGCGGAGATGAACGGTAAGCTGATCTCGGGCAAGCCCGTGTACGTGGCTCTTGCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GCTGTCGCGGAGATGAACGGTAAGCTGATCTCGGGCAAGCCCGTGTACGTGGCTCTTGCT
+             1270      1280      1290      1300      1310      1320
+
+             1330      1340      1350      1360      1370      1380
+DVH05_ CAGCGCAAGGAGGTGCGTCGTGCTCAGCTTGAGGCCCAGCACGCCCAGCAGCGCGCTGGT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CAGCGCAAGGAGGTGCGTCGTGCTCAGCTTGAGGCCCAGCACGCCCAGCAGCGCGCTGGT
+             1330      1340      1350      1360      1370      1380
+
+             1390      1400      1410      1420      1430      1440
+DVH05_ ATGGTTGTGGGCCGTGGCATGCCTATGGGCCAGCCGCCCATGTACGGTGCTGCGCCGATG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATGGTTGTGGGCCGTGGCATGCCTATGGGCCAGCCGCCCATGTACGGTGCTGCGCCGATG
+             1390      1400      1410      1420      1430      1440
+
+             1450      1460      1470      1480      1490      1500
+DVH05_ TTCTACGGTCAGCCCGGCCAGCTTCCGCCCAGGCTCGCCAGGGCTTCATGTACCCGCAGC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TTCTACGGTCAGCCCGGCCAGCTTCCGCCCAGGCTCGCCAGGGCTTCATGTACCCGCAGC
+             1450      1460      1470      1480      1490      1500
+
+             
+DVH05_ AGATGA
+       ::::::
+DVH05V AGATGA
+             
+
+
+  4>>>DVH05_009504-T1 DVH05_009504 - 792 nt
+Library: ../annotation_v3/funannot/predict_results/Phytophthora_capsici_LT1534.transcripts.fa
+  25696683 residues in 20292 sequences
+
+Statistics: Altschul/Gish params: n0: 792 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 1234 (1245) to 1234 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.172), E-opt: 0.05 (0.0421), width:  16
+ Scan time:  1.390
+
+The best scores are:                                      opt bits E(20292)
+DVH05V3_008429-T1 DVH05V3_008429               ( 792) [f] 3960 1099.5       0
+
+>>DVH05V3_008429-T1 DVH05V3_008429                        (792 nt)
+ initn: 3960 init1: 3960 opt: 3960  Z-score: 5883.8  bits: 1099.5 E(20292):    0
+banded Smith-Waterman score: 3960; 100.0% identity (100.0% similar) in 792 nt overlap (1-792:1-792)
+
+               10        20        30        40        50        60
+DVH05_ ATGCCTGCTTTTGAACGAATTGGTTTCCCGAACGCCATTCGTGCGGTGCTGCCAGGAGAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATGCCTGCTTTTGAACGAATTGGTTTCCCGAACGCCATTCGTGCGGTGCTGCCAGGAGAC
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+DVH05_ AGTGATTGGCCAAGTGACTACCGACTTGGAGATCTTCGATACAACAGCATTTCAGTCATG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AGTGATTGGCCAAGTGACTACCGACTTGGAGATCTTCGATACAACAGCATTTCAGTCATG
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+DVH05_ ATATCGGAACGCACGTACGCCTATGGTCCTACCGTTATTGACCCAAGGTCTGGAGAGATT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATATCGGAACGCACGTACGCCTATGGTCCTACCGTTATTGACCCAAGGTCTGGAGAGATT
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+DVH05_ TTGCATAGCGATATCGTATTTGAGTATGGTTTTTTTAACGAGGTGATGGCCGATTTTGAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TTGCATAGCGATATCGTATTTGAGTATGGTTTTTTTAACGAGGTGATGGCCGATTTTGAC
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+DVH05_ GTGAAATCTCCAGTAGCCCCACCTCAGTCCCGAACAAGTGCTGATTCATCAACTAAAAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTGAAATCTCCAGTAGCCCCACCTCAGTCCCGAACAAGTGCTGATTCATCAACTAAAAAG
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+DVH05_ GAGAAAAATCGCTCTGGTCGACGTCGACCATGTGGGCTTGCGAGTGAGGAGCAGTACAAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GAGAAAAATCGCTCTGGTCGACGTCGACCATGTGGGCTTGCGAGTGAGGAGCAGTACAAA
+              310       320       330       340       350       360
+
+              370       380       390       400       410       420
+DVH05_ CTTGATCGAATGATGCTAAGGTCCTTAGCTGGAGATGAGAACGGCTTCGTTCCCAAGAGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CTTGATCGAATGATGCTAAGGTCCTTAGCTGGAGATGAGAACGGCTTCGTTCCCAAGAGA
+              370       380       390       400       410       420
+
+              430       440       450       460       470       480
+DVH05_ CTCATCGCTCAACACTTCGCTGATATTGTGATGCACGAAGTCGGCCACACACTTGGCTTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CTCATCGCTCAACACTTCGCTGATATTGTGATGCACGAAGTCGGCCACACACTTGGCTTG
+              430       440       450       460       470       480
+
+              490       500       510       520       530       540
+DVH05_ CGTCACAACTTTGCCGGTTCGTCAGCTTATTCTCGAGACCAGTTGAAGAATGCTTCGTTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGTCACAACTTTGCCGGTTCGTCAGCTTATTCTCGAGACCAGTTGAAGAATGCTTCGTTC
+              490       500       510       520       530       540
+
+              550       560       570       580       590       600
+DVH05_ GTCGCAGAGCACGGGATCTCATCATCGATCATGGATTATTTACCTGTCAATATCTTCTCA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTCGCAGAGCACGGGATCTCATCATCGATCATGGATTATTTACCTGTCAATATCTTCTCA
+              550       560       570       580       590       600
+
+              610       620       630       640       650       660
+DVH05_ GATATCACGGCGGACGAAGTCGAGAATCATGCGTTCTTCATGACCACAATCGGAGCGTAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GATATCACGGCGGACGAAGTCGAGAATCATGCGTTCTTCATGACCACAATCGGAGCGTAC
+              610       620       630       640       650       660
+
+              670       680       690       700       710       720
+DVH05_ GACTACGCAGCGATAGCTTATGGATATTCGTTCGTGGAAGACGAACGCCCAGGCTACAAA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GACTACGCAGCGATAGCTTATGGATATTCGTTCGTGGAAGACGAACGCCCAGGCTACAAA
+              670       680       690       700       710       720
+
+              730       740       750       760       770       780
+DVH05_ CACCCTAATTTAACGGCATTGGCAGCTGCTGCACCGCTTTTCTCACTGATGAGAGTGTCG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CACCCTAATTTAACGGCATTGGCAGCTGCTGCACCGCTTTTCTCACTGATGAGAGTGTCG
+              730       740       750       760       770       780
+
+              790  
+DVH05_ AGTACATGTTGA
+       ::::::::::::
+DVH05V AGTACATGTTGA
+              790  
+
+
+  5>>>DVH05_006249-T1 DVH05_006249 - 855 nt
+Library: ../annotation_v3/funannot/predict_results/Phytophthora_capsici_LT1534.transcripts.fa
+  25696683 residues in 20292 sequences
+
+Statistics: Altschul/Gish params: n0: 855 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 1604 (1647) to 1604 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.172), E-opt: 0.05 (0.042), width:  16
+ Scan time:  1.490
+
+The best scores are:                                      opt bits E(20292)
+DVH05V3_002160-T1 DVH05V3_002160               (1338) [f] 4275 1186.8       0
+
+>>DVH05V3_002160-T1 DVH05V3_002160                        (1338 nt)
+ initn: 4275 init1: 4275 opt: 4275  Z-score: 6350.5  bits: 1186.8 E(20292):    0
+banded Smith-Waterman score: 4275; 100.0% identity (100.0% similar) in 855 nt overlap (1-855:484-1338)
+
+                                             10        20        30
+DVH05_                               ATGAAGAAGGGCCCGATGGGTGTACTGAAG
+                                     ::::::::::::::::::::::::::::::
+DVH05V CGAGAGAGACTTATTAATGCTCCAAAGGCGATGAAGAAGGGCCCGATGGGTGTACTGAAG
+           460       470       480       490       500       510   
+
+               40        50        60        70        80        90
+DVH05_ CTGTTGCAGGGACTAAAAGTCTCGGACTTTGCTCCTGTTGCACCGGCAATTCAGAACTTC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CTGTTGCAGGGACTAAAAGTCTCGGACTTTGCTCCTGTTGCACCGGCAATTCAGAACTTC
+           520       530       540       550       560       570   
+
+              100       110       120       130       140       150
+DVH05_ CACACGAGGGAGATCATGGGATCGTCTAGTGACCGTCTGGCAACCAGGTTCGGAGTCACG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CACACGAGGGAGATCATGGGATCGTCTAGTGACCGTCTGGCAACCAGGTTCGGAGTCACG
+           580       590       600       610       620       630   
+
+              160       170       180       190       200       210
+DVH05_ AGGCAGGAGATGGACCAGTACACTATTGACGCTCACCAGAAGGCTTACAGAGCTCATGTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AGGCAGGAGATGGACCAGTACACTATTGACGCTCACCAGAAGGCTTACAGAGCTCATGTG
+           640       650       660       670       680       690   
+
+              220       230       240       250       260       270
+DVH05_ GAGGGAAAGTACAAGGGAGAAATCCTGTCTTACAAAGGGAGTACTGAGGAGAACGGAGTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GAGGGAAAGTACAAGGGAGAAATCCTGTCTTACAAAGGGAGTACTGAGGAGAACGGAGTT
+           700       710       720       730       740       750   
+
+              280       290       300       310       320       330
+DVH05_ AACCCCAATTCGACGCTCGAAAAGATCTCGACGCTGAAGCCGGCTTTTATTAAGCCGCAT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AACCCCAATTCGACGCTCGAAAAGATCTCGACGCTGAAGCCGGCTTTTATTAAGCCGCAT
+           760       770       780       790       800       810   
+
+              340       350       360       370       380       390
+DVH05_ GGCACCCACACGGCCGCCAACTCGTCGTTTTTGACGGACGGAGCTGCTGCTACGTTGATC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GGCACCCACACGGCCGCCAACTCGTCGTTTTTGACGGACGGAGCTGCTGCTACGTTGATC
+           820       830       840       850       860       870   
+
+              400       410       420       430       440       450
+DVH05_ ATGTCCGAGTCAAAGGCTTTGGAGCTTGGATACACGCCCAAATCGGTGCTCAAGGACTGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATGTCCGAGTCAAAGGCTTTGGAGCTTGGATACACGCCCAAATCGGTGCTCAAGGACTGG
+           880       890       900       910       920       930   
+
+              460       470       480       490       500       510
+DVH05_ TTGTTCGTGGGTGTGGACCCGTTCGAGACGCTATTGTTGGGCCCAGCGTACGGAATCCAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TTGTTCGTGGGTGTGGACCCGTTCGAGACGCTATTGTTGGGCCCAGCGTACGGAATCCAC
+           940       950       960       970       980       990   
+
+              520       530       540       550       560       570
+DVH05_ CAAATCTTGACCAAGAACAAGTTGAAGCTGAGCGACATCGACTACTTCGAGATCCACGAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CAAATCTTGACCAAGAACAAGTTGAAGCTGAGCGACATCGACTACTTCGAGATCCACGAG
+          1000      1010      1020      1030      1040      1050   
+
+              580       590       600       610       620       630
+DVH05_ GCTTTTGCTGGCCAGGTGCTGGCCAACTTGAACGCGTTGGCGGAACCCAAGTACTGCAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GCTTTTGCTGGCCAGGTGCTGGCCAACTTGAACGCGTTGGCGGAACCCAAGTACTGCAAG
+          1060      1070      1080      1090      1100      1110   
+
+              640       650       660       670       680       690
+DVH05_ GAATTGTTCGGCATTGACCAGGCTGTGGGACGCGTGCCGTCGGAGAAGTTGAACACGTGG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GAATTGTTCGGCATTGACCAGGCTGTGGGACGCGTGCCGTCGGAGAAGTTGAACACGTGG
+          1120      1130      1140      1150      1160      1170   
+
+              700       710       720       730       740       750
+DVH05_ GGAGGATCTTTAGCGCTTGGACATCCGTTCGGCGCCACCGGCAGCAGATTAGTGAACACG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GGAGGATCTTTAGCGCTTGGACATCCGTTCGGCGCCACCGGCAGCAGATTAGTGAACACG
+          1180      1190      1200      1210      1220      1230   
+
+              760       770       780       790       800       810
+DVH05_ GCGTCCAACAAGCTGCAAAAGGAAGGCGGAAAGTACGCGCTTCTGGCTGCCTGCGCTGAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GCGTCCAACAAGCTGCAAAAGGAAGGCGGAAAGTACGCGCTTCTGGCTGCCTGCGCTGAC
+          1240      1250      1260      1270      1280      1290   
+
+              820       830       840       850     
+DVH05_ AGCGGACTTGCATACGTCGGTCTGATCGAGAACTACAAGAAGTAG
+       :::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AGCGGACTTGCATACGTCGGTCTGATCGAGAACTACAAGAAGTAG
+          1300      1310      1320      1330        
+
+
+  6>>>DVH05_010210-T1 DVH05_010210 - 774 nt
+Library: ../annotation_v3/funannot/predict_results/Phytophthora_capsici_LT1534.transcripts.fa
+  25696683 residues in 20292 sequences
+
+Statistics: Altschul/Gish params: n0: 774 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 1869 (1904) to 1869 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.177), E-opt: 0.05 (0.0431), width:  16
+ Scan time:  1.430
+
+The best scores are:                                      opt bits E(20292)
+DVH05V3_008667-T1 DVH05V3_008667               ( 774) [f] 3870 1074.6       0
+
+>>DVH05V3_008667-T1 DVH05V3_008667                        (774 nt)
+ initn: 3870 init1: 3870 opt: 3870  Z-score: 5749.4  bits: 1074.6 E(20292):    0
+banded Smith-Waterman score: 3870; 100.0% identity (100.0% similar) in 774 nt overlap (1-774:1-774)
+
+               10        20        30        40        50        60
+DVH05_ ATGGCCACTGAAAACGTCGTGCTGAAGCTGAGCTTCTCGGGCGAGACGCACCGCGTGACG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATGGCCACTGAAAACGTCGTGCTGAAGCTGAGCTTCTCGGGCGAGACGCACCGCGTGACG
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+DVH05_ GTGCCGCTGTACGCCGAAGACCCCAAGAACGACTTGAGCTACGATCTGGTGCTCAACAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTGCCGCTGTACGCCGAAGACCCCAAGAACGACTTGAGCTACGATCTGGTGCTCAACAAG
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+DVH05_ GTGCGAGAGCTCTTCCCGCAGCTCTCGAGCCGCTGGACGCTAGTGTACCGTGATGATGAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTGCGAGAGCTCTTCCCGCAGCTCTCGAGCCGCTGGACGCTAGTGTACCGTGATGATGAG
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+DVH05_ GGCGACGTGGTCACTCTGTCGCACGCGCTCGAGTTCGATGAAGCCTGTCACGTGCTCCTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GGCGACGTGGTCACTCTGTCGCACGCGCTCGAGTTCGATGAAGCCTGTCACGTGCTCCTG
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+DVH05_ GCGATGGAGCCCCAAGACCAAGCGAAGCTGCGTACGCTTCGCTTCTGCGTACTGCAGCGT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GCGATGGAGCCCCAAGACCAAGCGAAGCTGCGTACGCTTCGCTTCTGCGTACTGCAGCGT
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+DVH05_ GTGACGTTCCGTGAGAAGGTGGTGGCGCCTGTCCTGCAGAAGATCGTGGAGCTCGCGCGT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTGACGTTCCGTGAGAAGGTGGTGGCGCCTGTCCTGCAGAAGATCGTGGAGCTCGCGCGT
+              310       320       330       340       350       360
+
+              370       380       390       400       410       420
+DVH05_ CTGGCACGTGAGGCCACGAACCAGATACGCAATAGCGAGCTATTGGGCAAAGGTCGCGAC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CTGGCACGTGAGGCCACGAACCAGATACGCAATAGCGAGCTATTGGGCAAAGGTCGCGAC
+              370       380       390       400       410       420
+
+              430       440       450       460       470       480
+DVH05_ TCGTTCGTGCGGCTTGCTGGCGGCGCAGTCACTCAGGCTGGCGTGGCCATCAACCACATT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TCGTTCGTGCGGCTTGCTGGCGGCGCAGTCACTCAGGCTGGCGTGGCCATCAACCACATT
+              430       440       450       460       470       480
+
+              490       500       510       520       530       540
+DVH05_ CGTAACAGTGAAGTGCTGGAGCGTGGACGCGAGTCGCTGGGAAACTCTGCAGCTCAGACA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGTAACAGTGAAGTGCTGGAGCGTGGACGCGAGTCGCTGGGAAACTCTGCAGCTCAGACA
+              490       500       510       520       530       540
+
+              550       560       570       580       590       600
+DVH05_ CGGACGTTATTAGTGTCGGCTGGCAGTGGAGTGAGCACGCGCCTGCGACGAGCCGGCTCG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CGGACGTTATTAGTGTCGGCTGGCAGTGGAGTGAGCACGCGCCTGCGACGAGCCGGCTCG
+              550       560       570       580       590       600
+
+              610       620       630       640       650       660
+DVH05_ GTCGTTGCAGCGAGCATTGAACGCCGACGATCCGCCAGCGGTTCCAGTTACGACCACGTG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTCGTTGCAGCGAGCATTGAACGCCGACGATCCGCCAGCGGTTCCAGTTACGACCACGTG
+              610       620       630       640       650       660
+
+              670       680       690       700       710       720
+DVH05_ AACGAGTTCGACCCAACCGACTTTGTCAAAACTCCGTCAGTAACGGTTTCCTCCCCATCG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V AACGAGTTCGACCCAACCGACTTTGTCAAAACTCCGTCAGTAACGGTTTCCTCCCCATCG
+              670       680       690       700       710       720
+
+              730       740       750       760       770    
+DVH05_ CCATCATCGGAAGTGGCGGTGACCGTGGATCTGCGTCAATCTGTTCCTCGGTGA
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CCATCATCGGAAGTGGCGGTGACCGTGGATCTGCGTCAATCTGTTCCTCGGTGA
+              730       740       750       760       770    
+
+
+  7>>>DVH05_010455-T1 DVH05_010455 - 585 nt
+Library: ../annotation_v3/funannot/predict_results/Phytophthora_capsici_LT1534.transcripts.fa
+  25696683 residues in 20292 sequences
+
+Statistics: Altschul/Gish params: n0: 585 Lambda: 0.192 K: 0.177 H: 0.360
+ statistics sampled from 1412 (1428) to 1412 sequences
+Algorithm: FASTA (3.8 Nov 2011) [optimized]
+Parameters: +5/-4 matrix (5:-4), open/ext: -12/-4
+ ktup: 6, E-join: 0.25 (0.175), E-opt: 0.05 (0.0421), width:  16
+ Scan time:  1.240
+
+The best scores are:                                      opt bits E(20292)
+DVH05V3_007812-T1 DVH05V3_007812               ( 585) [f] 2925 812.9       0
+DVH05V3_007808-T1 DVH05V3_007808               (1020) [f]  898 251.4 3.2e-66
+DVH05V3_007811-T1 DVH05V3_007811               (1041) [f]  886 248.0 3.2e-65
+DVH05V3_007810-T1 DVH05V3_007810               (1779) [f]  633 178.0 4.1e-44
+DVH05V3_007809-T1 DVH05V3_007809               (1023) [f]  562 158.3 3.3e-38
+
+>>DVH05V3_007812-T1 DVH05V3_007812                        (585 nt)
+ initn: 2925 init1: 2925 opt: 2925  Z-score: 4339.3  bits: 812.9 E(20292):    0
+banded Smith-Waterman score: 2925; 100.0% identity (100.0% similar) in 585 nt overlap (1-585:1-585)
+
+               10        20        30        40        50        60
+DVH05_ ATGCTGCTCTTCGCGTACAAAGGCTTCAACGCCACAGGGCTTTCGTACCTTCAATTAACG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATGCTGCTCTTCGCGTACAAAGGCTTCAACGCCACAGGGCTTTCGTACCTTCAATTAACG
+               10        20        30        40        50        60
+
+               70        80        90       100       110       120
+DVH05_ GTCAGTGCTGTGGTGCTTGGAGTCATTTGCACCGTTTTCCTCGTGTACGGACTGCGAGTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GTCAGTGCTGTGGTGCTTGGAGTCATTTGCACCGTTTTCCTCGTGTACGGACTGCGAGTT
+               70        80        90       100       110       120
+
+              130       140       150       160       170       180
+DVH05_ TTAGCTCGCTTGCAAGATTTCGAGAACCAGAAGAAGAGTCAAATGCCCAATGCATTGTCC
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TTAGCTCGCTTGCAAGATTTCGAGAACCAGAAGAAGAGTCAAATGCCCAATGCATTGTCC
+              130       140       150       160       170       180
+
+              190       200       210       220       230       240
+DVH05_ GAGCGTATGATGAACCGCTCGTTCAATATGGAAACCTTAAGCGATGACGAAGATGGCGTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GAGCGTATGATGAACCGCTCGTTCAATATGGAAACCTTAAGCGATGACGAAGATGGCGTT
+              190       200       210       220       230       240
+
+              250       260       270       280       290       300
+DVH05_ CCGATTGTTCACGAGCCAAAGTACATCCGAAGTCGTCCGGAGAGTGGACACGCCACCAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CCGATTGTTCACGAGCCAAAGTACATCCGAAGTCGTCCGGAGAGTGGACACGCCACCAAG
+              250       260       270       280       290       300
+
+              310       320       330       340       350       360
+DVH05_ ATCAAGAAAATCCTCTTCGTGGCTGTGAGTCTTTCGCTCATTGTCATCGCTGGGCAGATG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V ATCAAGAAAATCCTCTTCGTGGCTGTGAGTCTTTCGCTCATTGTCATCGCTGGGCAGATG
+              310       320       330       340       350       360
+
+              370       380       390       400       410       420
+DVH05_ TACATGGCGGTTGTGCGTACATTGAGCACACCCAAAGAGCTCTCGTGTGCCAATGAAAAG
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V TACATGGCGGTTGTGCGTACATTGAGCACACCCAAAGAGCTCTCGTGTGCCAATGAAAAG
+              370       380       390       400       410       420
+
+              430       440       450       460       470       480
+DVH05_ GGTGCGAGGCAGTCAAATCCAGCATCAATGTGCTGCATGTGCTGCAAGTTGTCTGCATCT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GGTGCGAGGCAGTCAAATCCAGCATCAATGTGCTGCATGTGCTGCAAGTTGTCTGCATCT
+              430       440       450       460       470       480
+
+              490       500       510       520       530       540
+DVH05_ GGGTTATCTTGTGGACGTTTCGAGGCATCCAGAGGAAAGAAGTGCGGCCTCAGCCCTTTT
+       ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+DVH05V GGGTTATCTTGTGGACGTTTCGAGGCATCCAGAGGAAAGAAGTGCGGCCTCAGCCCTTTT
+              490       500       510       520       530       540
+
+              550       560       570       580     
+DVH05_ CAACAGTATAGATCCCCTTCAAGCGAACGAAAGCTGGGTAAATAG
+       :::::::::::::::::::::::::::::::::::::::::::::
+DVH05V CAACAGTATAGATCCCCTTCAAGCGAACGAAAGCTGGGTAAATAG
+              550       560       570       580     
+
+>>DVH05V3_007808-T1 DVH05V3_007808                        (1020 nt)
+ initn: 538 init1: 329 opt: 898  Z-score: 1300.3  bits: 251.4 E(20292): 3.2e-66
+banded Smith-Waterman score: 898; 64.6% identity (64.6% similar) in 542 nt overlap (1-535:472-1004)
+
+                                             10        20        30
+DVH05_                               ATGCTGCTCTTCGCGTACAAAGGCTTCAAC
+                                     :::   ::::::  :: ::: :::::::: 
+DVH05V GTGGTCTGGACATTTCAGGTTCTGTACGACATGTGCCTCTTCCTGTCCAAGGGCTTCAAT
+             450       460       470       480       490       500 
+
+               40        50        60        70        80        90
+DVH05_ GCCACAGGGCTTTCGTACCTTCAATTAACGGTCAGTGCTGTGGTGCTTGGAGTCATTTGC
+        ::   :: ::   :::: : ::  : :: :: :: ::     :::: ::: ::::  : 
+DVH05V CCCCAGGGTCTCGTGTACATGCAGCTCACCGTGAGCGCGTGCATGCTGGGAATCATCAGT
+             510       520       530       540       550       560 
+
+              100       110       120       130       140       150
+DVH05_ ACCGTTTTCCTCGTGTACGGACTGCGAGTTTTAGCTCGCTTGCAAGATTTCGAGAACCAG
+       :: :: :::::: : ::::: ::::: :: ::    :: :::::  : :  :::   :::
+DVH05V ACGGTCTTCCTCATCTACGGTCTGCGCGTCTTGAGCCGTTTGCAGCAGTATGAGCGGCAG
+             570       580       590       600       610       620 
+
+              160         170       180       190          200     
+DVH05_ AAGAAGAGTCAAATGCCCA--ATGCATTGTCCGAGCGTATGAT---GAACCGCTCGTTCA
+         ::::   : :::::: :  :::::  :::::: :: :::::   :::::: :: ::  
+DVH05V CTGAAGCTACGAATGCCAAGCATGCA--GTCCGATCGCATGATGTCGAACCGTTCATTTG
+             630       640         650       660       670         
+
+         210       220       230       240       250        260    
+DVH05_ ATATGGAAACCTTAAGCGATGACGAAGATGGCGTTCCGATTGTTCACGAGC-CAAAGTAC
+       :  ::   : : : ::::::::::: :: :::   ::  :  : :  :: :  ::::: :
+DVH05V ACCTG---AACATGAGCGATGACGAGGACGGCACGCCCGTCATGCGGGATCGTAAAGTGC
+     680          690       700       710       720       730      
+
+          270       280       290       300       310       320    
+DVH05_ ATCCGAAGTCGTCCGGAGAGTGGACACGCCACCAAGATCAAGAAAATCCTCTTCGTGGCT
+         ::    ::: ::  ::   :: :::::: ::::::::::::: ::::: :::::::  
+DVH05V GCCC----TCGCCCCCAGGAAGGCCACGCCTCCAAGATCAAGAAGATCCTGTTCGTGGTG
+        740           750       760       770       780       790  
+
+          330       340       350       360       370       380    
+DVH05_ GTGAGTCTTTCGCTCATTGTCATCGCTGGGCAGATGTACATGGCGGTTGTGCGTACATTG
+       : ::     :::::: ::::: : ::::  :::::::: :::::  :::  :: ::    
+DVH05V GAGACGTGCTCGCTCGTTGTCGTGGCTGCTCAGATGTATATGGCCATTGACCGCACGAGC
+            800       810       820       830       840       850  
+
+          390       400       410        420       430       440   
+DVH05_ AGCACACCCAAAGAGCTCTCGTGTGCCAAT-GAAAAGGGTGCGAGGCAGTCAAATCCAGC
+         ::: :::   ::::: :: ::::::::: :  :   ::::::  : ::::: : :  :
+DVH05V GACACCCCCGTGGAGCTGTCCTGTGCCAATGGCCACCTGTGCGACACCGTCAAGTGCTCC
+            860       870       880       890       900       910  
+
+           450       460       470       480       490       500   
+DVH05_ ATCAATGTGCTGCATGTGCTGCAAGTTGTCTGCATCTGGGTTATCTTGTGGACGTTTCGA
+        : ::  :::: ::: :  : ::  :  : ::::: ::::: ::: : :::::::: :: 
+DVH05V GTGAACCTGCTCCATATTTTCCAGATCATGTGCATTTGGGTCATCCTCTGGACGTTCCGC
+            920       930       940       950       960       970  
+
+           510       520       530       540       550       560   
+DVH05_ GGCATCCAGAGGAAAGAAGTGCGGCCTCAGCCCTTTTCAACAGTATAGATCCCCTTCAAG
+          :: :: : ::::  :::    :: : :::                            
+DVH05V AAGATTCAAAAGAAATCAGTCGTCCCGCGGCCGCATGGCGTCGTCTAA            
+            980       990      1000      1010      1020            
+
+           570       580     
+DVH05_ CGAACGAAAGCTGGGTAAATAG
+
+>>DVH05V3_007811-T1 DVH05V3_007811                        (1041 nt)
+ initn: 689 init1: 329 opt: 886  Z-score: 1282.2  bits: 248.0 E(20292): 3.2e-65
+banded Smith-Waterman score: 886; 64.2% identity (64.2% similar) in 545 nt overlap (7-546:478-1016)
+
+                                       10        20         30     
+DVH05_                         ATGCTGCTCTTCGCGTACAAAGGCTTCAA-CGCCAC
+                                     ::::::  :: ::: :::::::: ::::: 
+DVH05V TGGGCCTTCTACATCCTCTACAACATTTGCCTCTTCCTGTCCAAGGGCTTCAATCGCCA-
+       450       460       470       480       490       500       
+
+          40        50        60        70        80        90     
+DVH05_ AGGGCTTTCGTACCTTCAATTAACGGTCAGTGCTGTGGTGCTTGGAGTCATTTGCACCGT
+       ::::::  :::: :: :: :::: :   :::::  :  :: : ::  ::::: :::: ::
+DVH05V AGGGCTCACGTATCTCCATTTAATGTGGAGTGCCATCATGTTGGGGATCATTAGCACAGT
+        510       520       530       540       550       560      
+
+         100       110       120       130       140       150     
+DVH05_ TTTCCTCGTGTACGGACTGCGAGTTTTAGCTCGCTTGCAAGATTTCGAGAACCAGAAGAA
+        :::::: : :: :: :: :: ::: :  : ::  : :: :  :::::   : :::::::
+DVH05V CTTCCTCATCTATGGCCTTCGCGTTCTCTCGCGACTACAGGCCTTCGAACGCGAGAAGAA
+        570       580       590       600       610       620      
+
+         160       170       180       190       200       210     
+DVH05_ GAGTCAAATGCCCAATGCATTGTCCGAGCGTATGATGAACCGCTCGTTCAATATGGAAAC
+       :   ::  ::::::   :  :: : :: ::  ::::::::: ::::: ::: ::::  : 
+DVH05V GCTGCAGGTGCCCA---CTATGACGGACCGCGTGATGAACCACTCGTACAACATGGGGAG
+        630       640          650       660       670       680   
+
+         220       230       240       250       260          270  
+DVH05_ CTTAAGCGATGACGAAGATGGCGTTCCGATTGTTCACGAGCCAAAGT---ACATCCGAAG
+         : :: :: ::::: :: ::::::::  : :: :: ::::: ::::    :: :::  :
+DVH05V TCTCAGTGACGACGAGGACGGCGTTCCAGTGGTGCAGGAGCCCAAGTTTGCCAACCGTGG
+           690       700       710       720       730       740   
+
+            280       290       300       310       320       330  
+DVH05_ TCGTCCGGAGAGTGGACACGCCACCAAGATCAAGAAAATCCTCTTCGTGGCTGTGAGTCT
+         : ::: ::   :: ::  :::::::::::   :: ::  : : :::  : : ::   :
+DVH05V GAGGCCGAAGGACGGTCATTCCACCAAGATCCGCAAGATTTTGTACGTCACGGAGACGGT
+           750       760       770       780       790       800   
+
+            340       350       360       370       380       390  
+DVH05_ TTCGCTCATTGTCATCGCTGGGCAGATGTACATGGCGGTTGTGCGTACATTGAGCACACC
+        :::::: :::: ::::  :  :: ::::::::::::::    :  :::   : :    :
+DVH05V ATCGCTCGTTGTTATCGGCGCTCAAATGTACATGGCGGTGACCCACACAGCAAACGAGTC
+           810       820       830       840       850       860   
+
+            400       410        420       430       440       450 
+DVH05_ CAAAGAGCTCTCGTGTGCCAAT-GAAAAGGGTGCGAGGCAGTCAAATCCAGCATCAATGT
+         : ::::::   ::::: ::: : :  :: :::::  :  : ::  ::: : :::    
+DVH05V GGACGAGCTCCAATGTGCGAATGGCATTGGCTGCGACACTATAAAGGCCA-CCTCAGCTA
+           870       880       890       900       910        920  
+
+             460       470       480       490       500       510 
+DVH05_ GCTGCATGTGCTGCAAGTTGTCTGCATCTGGGTTATCTTGTGGACGTTTCGAGGCATCCA
+        ::  :  : ::::: ::  : ::  : :::::: :  ::::: : :: ::    ::: :
+DVH05V CCTCAACATCCTGCAGGTCATTTGTGTGTGGGTTGTGCTGTGGGCCTTCCGTACAATCAA
+            930       940       950       960       970       980  
+
+             520       530       540       550       560       570 
+DVH05_ GAGGAAAGAAGTGCGGCCTCAGCCCTTTTCAACAGTATAGATCCCCTTCAAGCGAACGAA
+        : : :::: :::   ::::::::     ::::::                         
+DVH05V AAAG-AAGAGGTGATCCCTCAGCCTCAGGCAACAGGGGCGTATTCCATGGCATAAGTTAG
+             990      1000      1010      1020      1030      1040 
+
+             580     
+DVH05_ AGCTGGGTAAATAG
+
+>>DVH05V3_007810-T1 DVH05V3_007810                        (1779 nt)
+ initn: 472 init1: 402 opt: 633  Z-score: 899.2  bits: 178.0 E(20292): 4.1e-44
+banded Smith-Waterman score: 633; 61.8% identity (61.8% similar) in 474 nt overlap (1-468:400-865)
+
+                                             10        20        30
+DVH05_                               ATGCTGCTCTTCGCGTACAAAGGCTTCAAC
+                                     :::   :::::::: : :::::::::: : 
+DVH05V ATTGTATGGGCGTTCTACGTCGTTTACAACATGTCCCTCTTCGCCTTCAAAGGCTTCCAA
+     370       380       390       400       410       420         
+
+               40        50        60        70        80        90
+DVH05_ GCCACAGGGCTTTCGTACCTTCAATTAACGGTCAGTGCTGTGGTGCTTGGAGTCATTTGC
+        :  ::: :::    ::: : ::  :: : :: ::::: :: :::  : :  :  : :: 
+DVH05V CCAGCAGTGCTCAACTACATCCAGCTATCTGTTAGTGC-GT-GTGTATTGGCTGTTGTGG
+     430       440       450       460         470       480       
+
+                100       110       120       130       140        
+DVH05_ ACC--GTTTTCCTCGTGTACGGACTGCGAGTTTTAGCTCGCTTGCAAGATTTCGAGAACC
+        ::  :  :::::: : :::::::: :: :: ::  : ::: : :  :  : :::  :  
+DVH05V CCCTGGCGTTCCTCTTCTACGGACTACGGGTGTTGTCACGCCTTCGGGCGTACGAACAGG
+       490       500       510       520       530       540       
+
+      150       160       170       180          190       200     
+DVH05_ AGAAGAAGAGTCAAATGCCCAATGCATTGTCCGAGCGTAT---GATGAACCGCTCGTTCA
+       :::  :::      ::: : :      : : :::::: ::   :  :::::  :: ::::
+DVH05V AGATCAAGCTGAGGATGTCTACGTTGGTTTGCGAGCGGATGGCGCCGAACCAGTCCTTCA
+       550       560       570       580       590       600       
+
+         210       220       230       240       250       260     
+DVH05_ ATATGGAAACCTTAAGCGATGACGAAGATGGCGTTCCGATTGTTCACGAGCCAAAGTACA
+          :::      : ::::: :::::::: ::::: ::  : ::    ::::: : :::: 
+DVH05V GCTTGG---TGCTGAGCGACGACGAAGAGGGCGTCCCAGTCGTGACGGAGCCCAGGTACG
+       610          620       630       640       650       660    
+
+         270       280       290       300       310       320     
+DVH05_ TCCGAAGTCGTCCGGAGAGTGGACACGCCACCAAGATCAAGAAAATCCTCTTCGTGGCTG
+         ::: : :: ::: :    :: ::  : : ::::::::::::::::::: : :: :: :
+DVH05V CGCGACGCCGGCCGAACGAAGGTCATTCGAACAAGATCAAGAAAATCCTCCTGGTAGCGG
+          670       680       690       700       710       720    
+
+         330       340       350       360       370       380     
+DVH05_ TGAGTCTTTCGCTCATTGTCATCGCTGGGCAGATGTACATGGCGGTTGTGCGTACATTGA
+        :    : ::  :::: ::::: :: :: ::: : :: :::::   ::   :: ::  ::
+DVH05V AGGCGATCTCCGTCATCGTCATTGCCGGCCAGCTCTATATGGC-CATGAATGT-CA-CGA
+          730       740       750       760        770         780 
+
+         390       400       410       420        430       440    
+DVH05_ GCACACCCAAAGAGCTCTCGTGTGCCAATGAAAAG-GGTGCGAGGCAGTCAAATCCAGCA
+        ::::::    ::::: ::::::::::: : : ::  ::::    :  : ::: :::   
+DVH05V ACACACCAGTGGAGCTTTCGTGTGCCAACGGAGAGCTGTGCAGCTCGATTAAACCCAAGT
+             790       800       810       820       830       840 
+
+          450       460       470       480       490       500    
+DVH05_ TCAATGTGCTGCATGTGCTGCAAGTTGTCTGCATCTGGGTTATCTTGTGGACGTTTCGAG
+         : : : :::::  :::: :: :                                    
+DVH05V GGAGTCTACTGCACATGCTCCAGGAGCAGCGAGTGTGCATGGGGCTCAACGTAACGGACA
+             850       860       870       880       890       900 
+
+>--
+ initn: 456 init1: 229 opt: 625  Z-score: 887.2  bits: 175.7 E(20292): 1.9e-43
+banded Smith-Waterman score: 625; 62.3% identity (62.3% similar) in 419 nt overlap (1-415:1354-1768)
+
+                                             10        20          
+DVH05_                               ATGCTGCTCTTCGCGTACAAAGGC-TTCAA
+                                     :::   :::::::: : ::::::: :::::
+DVH05V TTTATCTGGACATTCTACACCGCCTACGACATGTCCCTCTTCGCCTTCAAAGGCTTTCAA
+          1330      1340      1350      1360      1370      1380   
+
+      30        40        50        60        70        80         
+DVH05_ CGCCACAGGGCTTTCGTACCTTCAATTAACGGTCAGTGCTGTGGTGCTTGGAGTCATTTG
+       :  : : ::    :: ::: : ::: :     : :::::     : ::::::: :::  :
+DVH05V CCGCTCTGGATGGTC-TACATGCAACTGGTTATGAGTGCATGCATCCTTGGAGCCATCAG
+          1390       1400      1410      1420      1430      1440  
+
+      90       100       110       120       130       140         
+DVH05_ CACCGTTTTCCTCGTGTACGGACTGCGAGTTTTAGCTCGCTTGCAAGATTTCGAGAACCA
+       :::    ::::: :: ::::: :: :: :::::: :  :  : ::::  : :::   : :
+DVH05V CACGACGTTCCTGGTCTACGGTCTACGGGTTTTATCCAGACTTCAAGCGTACGAACGCGA
+           1450      1460      1470      1480      1490      1500  
+
+     150       160       170       180       190          200      
+DVH05_ GAAGAAGAGTCAAATGCCCAATGCATTGTCCGAGCGTATGATG---AACCGCTCGTTCAA
+       :  :::        :  :::  ::: :::  :: :: ::: ::   :::   ::::::::
+DVH05V GGGGAAACTAAGGCTCTCCAGCGCAATGTGTGAACGGATGTTGCCCAACGAGTCGTTCAA
+           1510      1520      1530      1540      1550      1560  
+
+        210       220       230       240       250       260      
+DVH05_ TATGGAAACCTTAAGCGATGACGAAGATGGCGTTCCGATTGTTCACGAGCCAAAGTACAT
+         :::      :: ::::::::     :::  : :: ::::: : ::: :: : ::    
+DVH05V CTTGGCTCTTATAGGCGATGAC---ACTGGAATCCCCATTGTCCCCGAACCGAGGTTTGC
+           1570      1580         1590      1600      1610         
+
+        270       280       290       300       310       320      
+DVH05_ CCGAAGTCGTCCGGAGAGTGGACACGCCACCAAGATCAAGAAAATCCTCTTCGTGGCTGT
+        ::  :::  ::: :    :: :: ::::  ::::::::::: :::::: : :: :: : 
+DVH05V ACGTCGTCAACCGAAACAAGGCCATGCCATGAAGATCAAGAAGATCCTCCTTGTCGCCGA
+    1620      1630      1640      1650      1660      1670         
+
+        330       340       350       360       370       380      
+DVH05_ GAGTCTTTCGCTCATTGTCATCGCTGGGCAGATGTACATGGCGGTTGTGCGTACATTGAG
+       :    : :: ::  : :: :: :: :: ::: : :::::::: :: :: ::  : : :: 
+DVH05V GTCAGTGTCTCTGGTGGTAATGGCCGGTCAGCTCTACATGGCTGTAGTTCGAGCTTCGAA
+    1680      1690      1700      1710      1720      1730         
+
+        390       400       410       420       430       440      
+DVH05_ CACACCCAAAGAGCTCTCGTGTGCCAATGAAAAGGGTGCGAGGCAGTCAAATCCAGCATC
+       ::: ::    :::::::: ::::: ::::                               
+DVH05V CACGCCGGTGGAGCTCTCCTGTGCGAATGGCACACTGTGA                    
+    1740      1750      1760      1770                             
+
+>>DVH05V3_007809-T1 DVH05V3_007809                        (1023 nt)
+ initn: 482 init1: 219 opt: 562  Z-score: 797.3  bits: 158.3 E(20292): 3.3e-38
+banded Smith-Waterman score: 573; 59.6% identity (59.6% similar) in 525 nt overlap (1-517:484-983)
+
+                                             10        20        30
+DVH05_                               ATGCTGCTCTTCGCGTACAAAGGCTTCAAC
+                                     :::   :::::::::: ::: :::::::  
+DVH05V TTTGTCTGGGCGTTCTACATCGCTTACGACATGTCCCTCTTCGCGTTCAAGGGCTTCA--
+           460       470       480       490       500       510   
+
+               40        50        60        70         80         
+DVH05_ GCCACAGGGCTTTCGTACCTTCAATTAACGGTCAGTGCTG-TGGTGCTTGGAGTCATTTG
+                  :::  ::::    : :::  :  :::: : : : :::  : :::: : :
+DVH05V -----------TTC-CACCTATTCTCAAC--TATGTGCAGCTAGGGCTCAGTGTCA-TCG
+                         520         530       540       550       
+
+      90        100       110       120       130       140        
+DVH05_ CACCG-TTTTCCTCGTGTACGGACTGCGAGTTTTAGCTCGCTTGCAAGATTTCGAGAACC
+       : : :   :::::: : :: ::::: :::::  :  : :::::::: :: : :::    :
+DVH05V CTCTGACATTCCTCATCTATGGACTTCGAGTGATGACGCGCTTGCAGGAGTACGAACGAC
+        560       570       580       590       600       610      
+
+      150       160       170       180       190          200     
+DVH05_ AGAAGAAGAGTCAAATGCCCAATGCATTGTCCGAGCGTATGAT---GAACCGCTCGTTCA
+       :    :::   ::  : ::::    :   :::::   :::: :   :::::  :::::: 
+DVH05V AACTCAAGCTGCATTTACCCAGCTTAGATTCCGACTATATGTTGTCGAACCATTCGTTCG
+        620       630       640       650       660       670      
+
+         210       220       230       240       250       260     
+DVH05_ ATATGGAAACCTTAAGCGATGACGAAGATGGCGTTCCGATTGTTCACGAGCCAAAGTACA
+       :: :   :: : : :::::  ::::::: :     ::  : :  :: ::::    ::   
+DVH05V ATCT---AAACATGAGCGACAACGAAGACGAGACACCAGTGGCACAGGAGCGTCGGTTTG
+        680          690       700       710       720       730   
+
+         270       280       290       300       310       320     
+DVH05_ TCCGAAGTCGTCCGGAGAGTGGACACGCCACCAAGATCAAGAAAATCCTCTTCGTGGCTG
+         :   :::::::: :    :: ::: :  ::::::: ::   ::: ::  : :: ::::
+DVH05V CTCCTCGTCGTCCGCAAGAAGGGCACACAGCCAAGATTAAACGAATTCTGCTTGTAGCTG
+           740       750       760       770       780       790   
+
+         330       340       350       360        370       380    
+DVH05_ TGAGTCTTTCGCTCATTGTCATCGCTGGGCAGATGTACATGG-CGGTTGTGCGTAC-ATT
+        :    : ::: :: : ::::: ::::: :: ::::::::::  : :   : :: : :::
+DVH05V AGGTGGTGTCGATCGTCGTCATTGCTGGACAAATGTACATGGTTGCTCAAGTGTCCGATT
+           800       810       820       830       840       850   
+
+           390       400       410       420        430       440  
+DVH05_ GAGCACACCCAAAGAGCTCTCGTGTGCCAATGAAAAG-GGTGCGAGGCAGTCAAATCCAG
+            ::::    :::::::: :: :::::::    :  :::     :::::::  ::: 
+DVH05V -----CACCAGTTGAGCTCTCCTGCGCCAATGGGGTGTTGTGTAGTACAGTCAAGGCCAA
+                860       870       880       890       900        
+
+            450       460       470       480       490       500  
+DVH05_ CATCAATGTGCTGCATGTGCTGCAAGTTGTCTGCATCTGGGTTATCTTGTGGACGTTTCG
+           : : :::::::  :  : ::::: :: ::: : :::: :::  :::     :: ::
+DVH05V GTGGAGTCTGCTGCACATTTTCCAAGTAGTGTGCGTGTGGGCTATGCTGTATGTATTCCG
+      910       920       930       940       950       960        
+
+            510       520       530       540       550       560  
+DVH05_ AGGCATCCAGAGGAAAGAAGTGCGGCCTCAGCCCTTTTCAACAGTATAGATCCCCTTCAA
+       :: : : :: : :::                                             
+DVH05V AGACGTTCAAAAGAAGAACATCGTTCCACATCCGAGGGGAAGTGCAGGATACTAA     
+      970       980       990      1000      1010      1020        
+
+
+
+5754 residues in 7 query   sequences
+25696683 residues in 20292 library sequences
+ Tcomplib [36.3.7a Jan, 2015(preload9)] (32 proc in memory [0G])
+ start: Thu Dec  6 12:13:05 2018 done: Thu Dec  6 12:13:33 2018
+ Total Scan time:  9.990 Total Display time:  0.090
+
+Function used was FASTA [36.3.7a Jan, 2015(preload9)]
