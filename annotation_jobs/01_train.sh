@@ -1,13 +1,13 @@
 #!/bin/bash
-#SBATCH --nodes 1 --ntasks 16 --mem 64G -p intel --out train.%A.log -J trainFun
+#SBATCH --nodes 1 --ntasks 24 --mem 128G -p intel --out train.%A.log -J trainFun
 
-module load python/2.7.14
-module load funannotate/git-live
-module load augustus/3.3
-module load lp_solve
-module load genemarkHMM
+MEM=128G
+module unload miniconda2
+module load miniconda3
+module load funannotate/1.8.1
 export AUGUSTUS_CONFIG_PATH=/bigdata/stajichlab/shared/pkg/augustus/3.3/config
 export PASAHOME=`dirname $(which Launch_PASA_pipeline.pl)`
+export PASACONF=$HOME/pasa.CONFIG.template
 
 CPUS=$SLURM_CPUS_ON_NODE
 
@@ -32,4 +32,4 @@ fi
 
 funannotate train -i $SORTED --species "$SPECIES" --isolate $ISOLATE --cpus $CPUS \
     -o funannot --max_intronlen 4000 --stranded no \
-    --single rnaseq/single_AC-7-4-28.fastq 
+    --single rnaseq/single_AC-7-4-28.fastq  --pasa_db mysql --memory $MEM

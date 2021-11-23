@@ -5,8 +5,7 @@
 #SBATCH --output=annot.funannot_03.%A.log
 #SBATCH --time=6-0:00:00
 #SBATCH -p batch -J annotfunc
-module load python/2.7.14
-module load funannotate/git-live
+module load funannotate/1.8.1
 module load phobius
 CPUS=$SLURM_CPUS_ON_NODE
 
@@ -30,5 +29,14 @@ MOREFEATURE=""
 if [ $TEMPLATE ]; then
  MOREFEATURE="--sbt $TEMPLATE"
 fi
-funannotate annotate --busco_db $BUSCO -i $ODIR --species "$SPECIES" --strain "$ISOLATE" --cpus $CPUS $EXTRAANNOT $MOREFEATURE 
-#~/src/funannotate/funannotate annotate --busco_db $BUSCO -i $ODIR --species "$SPECIES" --strain "$ISOLATE" --cpus $CPUS $EXTRAANNOT $MOREFEATURE
+ANTISMASHRESULT=$ODIR/annotate_misc/antiSMASH.results.gbk
+if [[ ! -f $ANTISMASHRESULT && -d $ODIR/antismash_local ]]; then
+	ANTISMASH=$(ls $ODIR/antismash_local/*.gbk | head -n 1)
+	if [[ ! -f $ANTISMASH || -z $ANTISMASH ]]; then
+		echo "CANNOT FIND $ANTISMASH in $ODIR/antismash_local"
+	else
+		rsync -a $ANTISMASH $ANTISMASHRESULT
+	fi
+fi
+
+funannotate annotate -i $ODIR --busco_db $BUSCO --species "$SPECIES" --strain "$ISOLATE" --cpus $CPUS $MOREFEATURE --rename $FINALPREFIX

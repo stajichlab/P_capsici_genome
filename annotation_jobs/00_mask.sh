@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH -p batch --time 2-0:00:00 --ntasks 8 --nodes 1 --mem 24G --out logs/mask.%a.%A.log
+#SBATCH -p batch --time 2-0:00:00 --ntasks 8 --nodes 1 --mem 24G --out logs/mask.%A.log
 
 CPU=1
 if [ $SLURM_CPUS_ON_NODE ]; then
@@ -15,9 +15,9 @@ fi
 LIBRARY=Pcap_v1.repeatmodeler.lib.fa
 if [ ! -f $MASKED ]; then
 
-    module load funannotate/git-live
+    module load funannotate/1.8.1
     module unload rmblastn
-    module load ncbi-rmblast/2.6.0
+    module load ncbi-rmblast/2.9.0-p2
     export AUGUSTUS_CONFIG_PATH=/bigdata/stajichlab/shared/pkg/augustus/3.3/config
 
     LIBRARY=$(realpath $LIBRARY)
